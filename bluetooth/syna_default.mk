@@ -16,7 +16,7 @@
 #
 
 # Override BQR mask to enable LE Audio Choppy report
-ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
+ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.bluetooth.bqr.event_mask=262238
 else
@@ -60,7 +60,7 @@ PRODUCT_PACKAGES += android.hardware.bluetooth@1.1-service.synabtlinux \
         android.hardware.bluetooth_le.prebuilt.xml
 
 # Bluetooth SAR test tools
-PRODUCT_PACKAGES_DEBUG += bt_sar_test
+PRODUCT_PACKAGES_ENG += bt_sar_test
 
 # Bluetooth Tx power caps
 PRODUCT_COPY_FILES += \

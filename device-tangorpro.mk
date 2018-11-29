@@ -211,11 +211,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
         libcast_auth
 
-PRODUCT_PACKAGES_DEBUG += \
+PRODUCT_PACKAGES_ENG += \
         test_cast_auth
 
 # USI stylus test tool
-PRODUCT_PACKAGES_DEBUG += \
+PRODUCT_PACKAGES_ENG += \
         usi_test
 
 # Lights HAL
