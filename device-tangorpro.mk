@@ -187,12 +187,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
         libcast_auth
 
+ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
 PRODUCT_PACKAGES_DEBUG += \
         test_cast_auth
 
 # USI stylus test tool
 PRODUCT_PACKAGES_DEBUG += \
         usi_test
+endif
 
 # Lights HAL
 PRODUCT_PACKAGES += \

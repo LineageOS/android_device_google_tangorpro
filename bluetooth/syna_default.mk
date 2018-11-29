@@ -39,7 +39,9 @@ PRODUCT_PACKAGES += android.hardware.bluetooth@1.1-service.synabtlinux \
         android.hardware.bluetooth_le.prebuilt.xml
 
 # Bluetooth SAR test tools
+ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
 PRODUCT_PACKAGES_DEBUG += bt_sar_test
+endif
 
 # Bluetooth Tx power caps
 PRODUCT_COPY_FILES += \
