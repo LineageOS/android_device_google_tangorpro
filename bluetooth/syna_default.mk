@@ -20,7 +20,9 @@ DEVICE_MANIFEST_FILE += \
 BOARD_SEPOLICY_DIRS += device/google/tangorpro/sepolicy/bluetooth
 PRODUCT_PACKAGES += android.hardware.bluetooth@1.1-service.synabtlinux
 # Bluetooth SAR test tools
+ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
 PRODUCT_PACKAGES_DEBUG += bt_sar_test
+endif
 
 # Bluetooth Tx power caps
 PRODUCT_COPY_FILES += \
