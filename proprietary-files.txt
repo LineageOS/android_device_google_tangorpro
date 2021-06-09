@@ -45,7 +45,7 @@ product/etc/permissions/com.google.assistant.hubui.xml
 product/priv-app/SmartDisplayPrebuilt/SmartDisplayPrebuilt.apk;PRESIGNED
 
 # Permissions
-product/etc/permissions/privapp-permissions-google-p.xml
+product/etc/permissions/privapp-permissions-google-p.xml:product/etc/permissions/privapp-permissions-google-p-lineage.xml
 product/etc/sysconfig/GoogleCamera_6gb_or_more_ram.xml
 product/etc/sysconfig/game_service.xml
 product/etc/sysconfig/google-hiddenapi-package-whitelist.xml
@@ -96,7 +96,7 @@ system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
 # Permissions
-system_ext/etc/permissions/privapp-permissions-google-se.xml
+system_ext/etc/permissions/privapp-permissions-google-se.xml:system_ext/etc/permissions/privapp-permissions-google-se-lineage.xml
 
 # Radio
 system_ext/etc/permissions/google-ril.xml
