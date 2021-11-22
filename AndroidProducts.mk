@@ -16,7 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_tangorpro.mk \
-    $(LOCAL_DIR)/factory_tangorpro.mk
+    $(LOCAL_DIR)/factory_tangorpro.mk \
+    $(LOCAL_DIR)/lineage_tangorpro.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_tangorpro-userdebug
