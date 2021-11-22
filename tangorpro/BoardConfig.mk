@@ -41,3 +41,6 @@ include device/google/gs201/BoardConfig-common.mk
 -include vendor/google_devices/tangorpro/proprietary/BoardConfigVendor.mk
 include device/google/tangorpro/sepolicy/tangorpro-sepolicy.mk
 include device/google/tangorpro/wifi/BoardConfig-wifi.mk
+
+DEVICE_PATH := device/google/tangorpro
+include $(DEVICE_PATH)/$(TARGET_BOOTLOADER_BOARD_NAME)/BoardConfigLineage.mk
