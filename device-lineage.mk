@@ -5,3 +5,25 @@
 #
 
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay-lineage
+
+# ANGLE - Almost Native Graphics Layer Engine
+PRODUCT_PACKAGES += \
+    ANGLE
+
+# Build necessary packages for vendor
+
+# Codec2
+PRODUCT_PACKAGES += \
+    libacryl \
+    libacryl_hdr_plugin \
+    libexynosv4l2
+
+# Graphics
+PRODUCT_PACKAGES += \
+    libEGL_angle \
+    libGLESv1_CM_angle \
+    libGLESv2_angle
+
+# Sensors
+PRODUCT_PACKAGES += \
+    sensors.dynamic_sensor_hal

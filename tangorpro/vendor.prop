@@ -1,0 +1,6 @@
+# DRM
+drm.service.enabled=true
+media.mediadrmservice.enable=true
+
+# UWB
+ro.vendor.uwb.calibration.calibrationpaths=/vendor/etc/uwb/calib_paths
