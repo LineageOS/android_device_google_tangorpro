@@ -5,3 +5,5 @@
 #
 
 include device/google/tangorpro/BoardConfigLineage.mk
+
+include vendor/google/tangorpro/BoardConfigVendor.mk
