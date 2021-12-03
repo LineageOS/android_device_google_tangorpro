@@ -1,0 +1,12 @@
+# DRM
+drm.service.enabled=true
+media.mediadrmservice.enable=true
+
+# Graphics
+ro.gfx.angle.supported=true
+
+# SSR
+vendor.debug.ssrdump.type=sscoredump
+
+# UWB
+ro.vendor.uwb.calibration.calibrationpaths=/vendor/etc/uwb/calib_paths
