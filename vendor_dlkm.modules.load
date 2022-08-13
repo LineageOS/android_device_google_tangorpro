@@ -31,7 +31,6 @@ kernel/lib/crc-t10dif.ko
 extra/audiometrics.ko
 extra/bigocean.ko
 extra/fpc1020_platform_tee.ko
-extra/goog_touch_interface.ko
 extra/google_dual_batt_gauge.ko
 extra/gxp.ko
 extra/lwis.ko
@@ -39,7 +38,6 @@ extra/mali_kbase.ko
 extra/mali_pixel.ko
 extra/max77729_charger.ko
 extra/net/mcps802154/mcps802154_region_pctt.ko
-extra/nvt_touch.ko
 extra/overheat_mitigation.ko
 extra/panel/panel-boe-nt37290.ko
 extra/panel/panel-samsung-s6e3fc3-p10.ko
