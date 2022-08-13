@@ -1,0 +1,2 @@
+blocklist goog_touch_interface.ko
+blocklist nvt_touch.ko
