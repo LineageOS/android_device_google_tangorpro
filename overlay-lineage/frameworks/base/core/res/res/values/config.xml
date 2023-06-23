@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2022, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Control whether being in the desk dock should enable accelerometer
+         based screen orientation.  This defaults to true because it is
+         common for desk docks to be sold in a variety of form factors
+         with different orientations.  Since we cannot always tell these docks
+         apart and the docks cannot report their true orientation on their own,
+         we rely on gravity to determine the effective orientation. -->
+    <bool name="config_deskDockEnablesAccelerometer">false</bool>
+
+    <!-- Control whether nosensor and locked orientation requests are respected from the app when
+         config_deskDockEnablesAccelerometer is set to false.
+         TODO(b/274763533): Consider making true by default and removing this. -->
+    <bool name="config_deskRespectsNoSensorAndLockedWithoutAccelerometer">true</bool>
+
+    <!-- Allow the gesture to quick tap the power button multiple times to start the emergency sos
+         experience while the device is non-interactive. -->
+    <bool name="config_emergencyGestureEnabled">false</bool>
+
+    <!-- Whether the geolocation time zone detection feature is enabled. Setting this to false means
+         the feature cannot be used. Setting this to true means system server components can be
+         tested and location time zone detection may be used if other configuration allows (see
+         location time zone provider configuration settings below). -->
+    <bool name="config_enableGeolocationTimeZoneDetection">false</bool>
+
+    <!-- Default value for performant auth feature. -->
+    <bool name="config_performantAuthDefault">true</bool>
+
+    <!-- Whether the vendor power press code need to be mapped. -->
+    <bool name="config_powerPressMapping">true</bool>
+
+    <!-- If true, the direction rotation is applied to get to an application's requested
+         orientation is reversed.  Normally, the model is that landscape is
+         clockwise from portrait; thus on a portrait device an app requesting
+         landscape will cause a clockwise rotation, and on a landscape device an
+         app requesting portrait will cause a counter-clockwise rotation.  Setting
+         true here reverses that logic. -->
+    <bool name="config_reverseDefaultRotation">true</bool>
+
+    <!-- Whether changing sensor privacy SW setting requires device to be unlocked -->
+    <bool name="config_sensorPrivacyRequiresAuthentication">false</bool>
+
+    <!-- The number of degrees to rotate the display when the device is in a desk dock.
+         A value of -1 means no change in orientation by default. -->
+    <integer name="config_deskDockRotation">270</integer>
+
+    <!-- Amount of time in ms the user needs to press the relevant key to bring up the
+         global actions dialog -->
+    <integer name="config_globalActionsKeyTimeout">750</integer>
+
+    <!-- The time in milliseconds after which a press on power button is considered "long". -->
+    <integer name="config_longPressOnPowerDurationMs">750</integer>
+
+    <!-- Power press vendor code. -->
+    <integer name="config_powerPressCode">19</integer>
+
+    <!-- Whether a camera compat controller is enabled to allow the user to apply or revert
+         treatment for stretched issues in camera viewfinder. -->
+    <bool name="config_isCameraCompatControlForStretchedIssuesEnabled">true</bool>
+
+    <!-- Whether sending compat fake focus for split screen resumed activities is enabled.
+         Needed because some game engines wait to get focus before drawing the content of
+         the app which isn't guaranteed by default in multi-window modes. -->
+    <bool name="config_isCompatFakeFocusEnabled">true</bool>
+
+    <!-- Whether camera compat treatment is enabled for issues caused by orientation mismatch
+        between camera buffers and an app window. This includes force rotation of fixed
+        orientation activities connected to the camera in fullscreen and showing a tooltip in
+        split screen. -->
+    <bool name="config_isWindowManagerCameraCompatTreatmentEnabled">true</bool>
+
+    <!-- Whether enabling rotation compat policy for immersive apps that prevents auto rotation
+         into non-optimal screen orientation while in fullscreen. This is needed because immersive
+         apps, such as games, are often not optimized for all orientations and can have a poor UX
+         when rotated. Additionally, some games rely on sensors for the gameplay so users can
+         trigger such rotations accidentally when auto rotation is on.
+         Applicable only if ignoreOrientationRequest is enabled. -->
+    <bool name="config_letterboxIsDisplayRotationImmersiveAppCompatPolicyEnabled">true</bool>
+
+    <!-- Whether displaying letterbox education is enabled for letterboxed fullscreen apps. -->
+    <bool name="config_letterboxIsEducationEnabled">true</bool>
+
+    <!-- Whether the specific behaviour for translucent activities letterboxing is enabled.
+         TODO(b/255532890) Enable when ignoreOrientationRequest is set -->
+    <bool name="config_letterboxIsEnabledForTranslucentActivities">true</bool>
+
+    <!-- Whether horizontal reachability repositioning is allowed for letterboxed fullscreen apps.
+    -->
+    <bool name="config_letterboxIsHorizontalReachabilityEnabled">true</bool>
+
+    <!-- Whether should ignore app requested orientation in response to an app
+         calling Activity#setRequestedOrientation. See
+         LetterboxUiController#shouldIgnoreRequestedOrientation for details. -->
+    <bool name="config_letterboxIsPolicyForIgnoringRequestedOrientationEnabled">true</bool>
+
+    <!-- Whether using split screen aspect ratio as a default aspect ratio for unresizable apps. -->
+    <bool name="config_letterboxIsSplitScreenAspectRatioForUnresizableAppsEnabled">true</bool>
+
+    <!-- Whether vertical reachability repositioning is allowed for letterboxed fullscreen apps. -->
+    <bool name="config_letterboxIsVerticalReachabilityEnabled">true</bool>
+
+    <!-- If true, show multiuser switcher by default unless the user specifically disables it. -->
+    <bool name="config_showUserSwitcherByDefault">true</bool>
+
+    <!-- Control the behavior when the user short presses the power button.
+            0 - Nothing
+            1 - Go to sleep (doze)
+            2 - Really go to sleep (don't doze)
+            3 - Really go to sleep and go home (don't doze)
+            4 - Go to home
+            5 - Dismiss IME if shown. Otherwise go to home
+    -->
+    <integer name="config_shortPressOnPowerBehavior">7</integer>
+
+    <!--  Maximum number of supported users -->
+    <integer name="config_multiuserMaximumUsers">8</integer>
+
+    <!-- Corners radius for activity presented the letterbox mode. Values < 0 enable rounded
+         corners with radius equal to min between device bottom corner radii. Default 0 value turns
+         off rounded corners logic in LetterboxUiController. -->
+    <integer name="config_letterboxActivityCornersRadius">-1</integer>
+
+    <!-- Aspect ratio of letterboxing for fixed orientation. Values <= 1.0 will be ignored.
+         Note: Activity min/max aspect ratio restrictions will still be respected.
+         Therefore this override can control the maximum screen area that can be occupied by
+         the app in the letterbox mode. -->
+    <item name="config_fixedOrientationLetterboxAspectRatio" format="float" type="dimen">1.33</item>
+
+    <!-- Vertical position of a center of the letterboxed app window.
+        0 corresponds to the upper side of the screen and 1 to the lower side. If given value < 0
+        or > 1 it is ignored and for non-tabletop mode central position is used (0.5); for
+         tabletop mode top (0.0) is used. -->
+    <item name="config_letterboxVerticalPositionMultiplier" format="float" type="dimen">0.5</item>
+
+    <!-- Control whether to start dream immediately upon docking even if the lockscreen is unlocked.
+         This defaults to true to be consistent with historical behavior. -->
+    <bool name="config_startDreamImmediatelyOnDock">false</bool>
+
+    <!-- Docking is a uiMode configuration change and will cause activities to relaunch if it's not
+         handled. If true, the configuration change will be sent but activities will not be
+         relaunched upon docking. Apps with desk resources will behave like normal, since they may
+         expect the relaunch upon the desk uiMode change. -->
+    <bool name="config_skipActivityRelaunchWhenDocking">true</bool>
+
+    <!-- If this is true, then keep dreaming when undocking. -->
+    <bool name="config_keepDreamingWhenUndocking">true</bool>
+
+    <!-- Whether to automatically switch to the designated Dock User (the user chosen for
+         displaying dreams, etc.) after a timeout when the device is docked.  -->
+    <bool name="config_enableTimeoutToDockUserWhenDocked">true</bool>
+
+    <!-- Whether there is to be a chosen Dock User who is the only user allowed to dream. -->
+    <bool name="config_dreamsOnlyEnabledForDockUser">true</bool>
+
+    <!-- If supported, are dreams enabled? (by default) -->
+    <bool name="config_dreamsEnabledByDefault">false</bool>
+
+    <!-- Whether dreams are disabled when ambient mode is suppressed. -->
+    <bool name="config_dreamsDisabledByAmbientModeSuppressionConfig">true</bool>
+
+    <!-- Default value for Settings.ASSIST_TOUCH_GESTURE_ENABLED -->
+    <bool name="config_assistTouchGestureEnabledDefault">false</bool>
+
+    <!-- The list of supported dream complications -->
+    <integer-array name="config_supportedDreamComplications">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </integer-array>
+
+    <!-- Mapping to select an Intent.EXTRA_DOCK_STATE value from extcon state
+         key-value pairs. Each entry is evaluated in order and is of the form:
+            "[EXTRA_DOCK_STATE value],key1=value1,key2=value2[,...]"
+         An entry with no key-value pairs is valid and can be used as a wildcard.
+     -->
+    <string-array name="config_dockExtconStateMapping">
+        <item>4,USB=1</item>
+        <item>3</item>
+    </string-array>
+</resources>
