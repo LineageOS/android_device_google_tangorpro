@@ -86,3 +86,11 @@ system_ext/priv-app/grilservice/grilservice.apk;PRESIGNED
 # UWB
 system_ext/etc/permissions/privapp-permissions-qorvo.xml
 system_ext/priv-app/UwbVendorService/UwbVendorService.apk;PRESIGNED
+
+# vendor partition
+
+# Touchscreen
+vendor/firmware/novatek_ts_fw.bin:recovery/root/vendor/firmware/novatek_ts_fw.bin
+vendor/firmware/novatek_ts_fw_csot.bin:recovery/root/vendor/firmware/novatek_ts_fw_csot.bin
+vendor/firmware/novatek_ts_mp.bin:recovery/root/vendor/firmware/novatek_ts_mp.bin
+vendor/firmware/novatek_ts_mp_csot.bin:recovery/root/vendor/firmware/novatek_ts_mp_csot.bin
