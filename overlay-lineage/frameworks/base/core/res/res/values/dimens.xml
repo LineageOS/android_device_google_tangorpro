@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="config_fixedOrientationLetterboxAspectRatio">1.333</item>
+    <item type="dimen" name="config_letterboxVerticalPositionMultiplier">0.5</item>
+</resources>
