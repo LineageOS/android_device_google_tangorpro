@@ -309,6 +309,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "9bb0612a_d34c07e8",
+        "filename": "overlay-lineage/frameworks/base/core/res/res/values/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-06-26T19:04:12Z",
+      "side": 1,
+      "message": "eh, harmless",
+      "parentUuid": "d591c663_f0a6d2d0",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 68
+      },
+      "revId": "7f728204e074892c6264768bbf634b27d33f853a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "86e45bcf_9fac4693",
         "filename": "overlay-lineage/frameworks/base/packages/SystemUI/strings.xml",
         "patchSetId": 3
