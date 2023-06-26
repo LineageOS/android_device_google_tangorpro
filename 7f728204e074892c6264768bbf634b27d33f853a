@@ -118,6 +118,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "984f6e03_70d9631d",
+        "filename": "overlay-lineage/frameworks/base/core/res/res/values/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-06-26T18:59:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ad29c0f8_a28daf43",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 107
+      },
+      "revId": "7f728204e074892c6264768bbf634b27d33f853a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "73e1353c_e1d3d04f",
@@ -154,6 +178,30 @@
       "writtenOn": "2023-06-26T18:53:17Z",
       "side": 1,
       "message": "gms only - already in MTG",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 87
+      },
+      "revId": "7f728204e074892c6264768bbf634b27d33f853a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "af0d6519_6daa13e2",
+        "filename": "overlay-lineage/frameworks/base/core/res/res/values/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-06-26T18:59:33Z",
+      "side": 1,
+      "message": "another \"should be in MTG, isn\u0027t\"",
+      "parentUuid": "6f9a7b3b_572f44f5",
       "range": {
         "startLine": 6,
         "startChar": 0,
