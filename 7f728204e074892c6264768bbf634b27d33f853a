@@ -1,0 +1,165 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dad65181_f1ffb279",
+        "filename": "overlay-lineage/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-06-26T18:53:17Z",
+      "side": 1,
+      "message": "default in v/lin",
+      "range": {
+        "startLine": 76,
+        "startChar": 0,
+        "endLine": 76,
+        "endChar": 53
+      },
+      "revId": "7f728204e074892c6264768bbf634b27d33f853a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "73f48c7c_5e9bacd2",
+        "filename": "overlay-lineage/frameworks/base/core/res/res/values/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-06-26T18:53:17Z",
+      "side": 1,
+      "message": "gms only - already in MTG",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 91
+      },
+      "revId": "7f728204e074892c6264768bbf634b27d33f853a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ad29c0f8_a28daf43",
+        "filename": "overlay-lineage/frameworks/base/core/res/res/values/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-06-26T18:53:17Z",
+      "side": 1,
+      "message": "already set in gs201",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 107
+      },
+      "revId": "7f728204e074892c6264768bbf634b27d33f853a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "73e1353c_e1d3d04f",
+        "filename": "overlay-lineage/frameworks/base/core/res/res/values/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-06-26T18:53:17Z",
+      "side": 1,
+      "message": "GMS only",
+      "range": {
+        "startLine": 5,
+        "startChar": 1,
+        "endLine": 5,
+        "endChar": 142
+      },
+      "revId": "7f728204e074892c6264768bbf634b27d33f853a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6f9a7b3b_572f44f5",
+        "filename": "overlay-lineage/frameworks/base/core/res/res/values/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-06-26T18:53:17Z",
+      "side": 1,
+      "message": "gms only - already in MTG",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 87
+      },
+      "revId": "7f728204e074892c6264768bbf634b27d33f853a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d591c663_f0a6d2d0",
+        "filename": "overlay-lineage/frameworks/base/core/res/res/values/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-06-26T18:53:17Z",
+      "side": 1,
+      "message": "unsure if we want this?",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 68
+      },
+      "revId": "7f728204e074892c6264768bbf634b27d33f853a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "86e45bcf_9fac4693",
+        "filename": "overlay-lineage/frameworks/base/packages/SystemUI/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-06-26T18:53:17Z",
+      "side": 1,
+      "message": "not something we\u0027ll want in lineage - MTG doesn\u0027t even do gcam.",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 12
+      },
+      "revId": "7f728204e074892c6264768bbf634b27d33f853a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
