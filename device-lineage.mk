@@ -12,7 +12,8 @@ PRODUCT_PACKAGES += \
 
 # RRO
 PRODUCT_PACKAGES += \
-    GrilRadioCustomizableNoRadio
+    GrilRadioCustomizableNoRadio \
+    TangorproGMSOverlay
 
 # Build necessary packages for vendor
 
