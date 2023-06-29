@@ -76,7 +76,8 @@ PRODUCT_PACKAGES += \
 
 # RRO
 PRODUCT_PACKAGES += \
-    GrilRadioCustomizableNoRadio
+    GrilRadioCustomizableNoRadio \
+    TangorproGMSOverlay
 
 # Sensors
 PRODUCT_PACKAGES += \
