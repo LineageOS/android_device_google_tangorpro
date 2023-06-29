@@ -33,6 +33,11 @@ product/priv-app/HardwareInfo/HardwareInfo.apk;PRESIGNED
 product/priv-app/HotwordEnrollmentOKGoogleFUSIONPro/HotwordEnrollmentOKGoogleFUSIONPro.apk;PRESIGNED
 product/priv-app/HotwordEnrollmentXGoogleFUSIONPro/HotwordEnrollmentXGoogleFUSIONPro.apk;PRESIGNED
 
+# HubUI
+product/etc/appcompat/compat_framework_overrides.xml
+product/etc/permissions/com.google.assistant.hubui.xml
+product/priv-app/SmartDisplayPrebuilt/SmartDisplayPrebuilt.apk;PRESIGNED
+
 # Permissions
 product/etc/permissions/privapp-permissions-google-p.xml:product/etc/permissions/privapp-permissions-google-p-lineage.xml
 product/etc/sysconfig/google-hiddenapi-package-whitelist.xml
