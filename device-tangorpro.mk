@@ -265,4 +265,5 @@ PRODUCT_COPY_FILES += \
 
 # SKU specific RROs
 PRODUCT_PACKAGES += \
+    GrilRadioCustomizableNoRadio \
     SettingsOverlayGTU8P
