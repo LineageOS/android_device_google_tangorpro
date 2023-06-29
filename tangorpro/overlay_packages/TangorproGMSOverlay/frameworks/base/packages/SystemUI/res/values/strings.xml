@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Add supervised user -->
+    <string name="supervised_user_creation_label">Add child</string>
+</resources>
