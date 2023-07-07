@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c9a1f20a_55663283",
+        "filename": "overlay-lineage/frameworks/base/packages/SystemUI/flags.xml",
+        "patchSetId": 15
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-07-07T17:41:51Z",
+      "side": 1,
+      "message": "This is useless when the other 2 below get removed",
+      "revId": "4de436b3857c530d53314b58382d1647208782a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "46455a22_e75e0be9",
+        "filename": "overlay-lineage/frameworks/base/packages/SystemUI/flags.xml",
+        "patchSetId": 15
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-07-07T17:41:51Z",
+      "side": 1,
+      "message": "Charging ripple is already enabled by default since 12",
+      "revId": "4de436b3857c530d53314b58382d1647208782a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e93a3345_de2a6879",
+        "filename": "overlay-lineage/frameworks/base/packages/SystemUI/flags.xml",
+        "patchSetId": 15
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-07-07T17:41:51Z",
+      "side": 1,
+      "message": "This isn\u0027t specific to tablets, it should either be enabled globally or not at all.",
+      "revId": "4de436b3857c530d53314b58382d1647208782a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
