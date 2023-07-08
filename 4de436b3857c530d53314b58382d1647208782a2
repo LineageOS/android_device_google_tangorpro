@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e6c2abe1_801a5f8f",
+        "filename": "overlay-lineage/frameworks/base/packages/SystemUI/flags.xml",
+        "patchSetId": 15
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-07-08T19:30:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c9a1f20a_55663283",
+      "revId": "4de436b3857c530d53314b58382d1647208782a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "46455a22_e75e0be9",
@@ -35,6 +53,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c0cfd79_7989bf7e",
+        "filename": "overlay-lineage/frameworks/base/packages/SystemUI/flags.xml",
+        "patchSetId": 15
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-07-08T19:30:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "46455a22_e75e0be9",
+      "revId": "4de436b3857c530d53314b58382d1647208782a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e93a3345_de2a6879",
@@ -48,6 +84,24 @@
       "writtenOn": "2023-07-07T17:41:51Z",
       "side": 1,
       "message": "This isn\u0027t specific to tablets, it should either be enabled globally or not at all.",
+      "revId": "4de436b3857c530d53314b58382d1647208782a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5a5f68b_6d6fee43",
+        "filename": "overlay-lineage/frameworks/base/packages/SystemUI/flags.xml",
+        "patchSetId": 15
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-07-08T19:30:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e93a3345_de2a6879",
       "revId": "4de436b3857c530d53314b58382d1647208782a2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
