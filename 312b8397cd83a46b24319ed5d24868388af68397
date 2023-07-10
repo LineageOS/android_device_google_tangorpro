@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "52ce4388_c4f81211",
+        "filename": "device-tangorpro.mk",
+        "patchSetId": 11
+      },
+      "lineNbr": 269,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-07-10T18:47:48Z",
+      "side": 1,
+      "message": "Should be in device-lineage.mk",
+      "revId": "312b8397cd83a46b24319ed5d24868388af68397",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
