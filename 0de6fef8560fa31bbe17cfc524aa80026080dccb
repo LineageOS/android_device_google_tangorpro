@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ae8f7c5e_910b78f7",
+        "filename": "tangorpro/overlay_packages/TangorproGMSOverlay/res/values/config.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-07-13T16:39:08Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be in gapps instead? Doesn\u0027t look tablet or Pixel Tablet specific",
+      "revId": "0de6fef8560fa31bbe17cfc524aa80026080dccb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
