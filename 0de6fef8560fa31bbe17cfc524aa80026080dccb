@@ -16,6 +16,24 @@
       "message": "Shouldn\u0027t this be in gapps instead? Doesn\u0027t look tablet or Pixel Tablet specific",
       "revId": "0de6fef8560fa31bbe17cfc524aa80026080dccb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e98b340_10967dfc",
+        "filename": "tangorpro/overlay_packages/TangorproGMSOverlay/res/values/config.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-07-13T17:43:05Z",
+      "side": 1,
+      "message": "agreed.",
+      "parentUuid": "ae8f7c5e_910b78f7",
+      "revId": "0de6fef8560fa31bbe17cfc524aa80026080dccb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
