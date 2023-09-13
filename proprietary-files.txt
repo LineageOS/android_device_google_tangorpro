@@ -17,8 +17,10 @@ product/etc/firmware/music_detector.sound_model_tflite
 product/app/PixelCameraServicesT6PRO/PixelCameraServicesT6PRO.apk;PRESIGNED
 
 # Cast
+product/etc/permissions/com.google.android.apps.mediashell.xml
 product/etc/permissions/com.google.android.apps.nest.castauth.xml
 product/etc/sysconfig/communal.xml
+product/priv-app/AndroidMediaShell/AndroidMediaShell.apk;PRESIGNED
 product/priv-app/CastAuthPrebuilt/CastAuthPrebuilt.apk;PRESIGNED
 
 # Dock
