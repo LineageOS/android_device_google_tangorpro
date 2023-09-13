@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_communalSourceComponent">com.google.assistant.hubui/com.google.assistant.surfaces.dragonglass.opal.lockscreenservice.LockScreenService</string>
+    <string name="config_communalSourceConnector">com.google.android.systemui.communal.projection.CommunalSourceImpl$Connector</string>
+    <string name="doze_brightness_sensor_type">com.google.sensor.binned_brightness</string>
+</resources>

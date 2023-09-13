@@ -166,8 +166,21 @@
          expect the relaunch upon the desk uiMode change. -->
     <bool name="config_skipActivityRelaunchWhenDocking">true</bool>
 
-    <!-- If this is true, then keep dreaming when undocking. -->
-    <bool name="config_keepDreamingWhenUndocking">true</bool>
+    <!-- If this is true, then keep dreaming when unplugging.
+         This config was formerly known as config_keepDreamingWhenUndocking.
+         It has been updated to affect other plug types. -->
+    <bool name="config_keepDreamingWhenUnplugging">true</bool>
+
+    <!-- Whether to send a user activity event to PowerManager when a dream quits unexpectedly so
+         that the screen won't immediately shut off.
+
+         When a dream stops unexpectedly, such as due to an app update, if the device has been
+         inactive less than the user's screen timeout, the device goes to keyguard and times out
+         back to dreaming after a few seconds. If the device has been inactive longer, the screen
+         will immediately turn off. With this flag on, the device will go back to keyguard in all
+         scenarios rather than turning off, which gives the device a chance to start dreaming
+         again. -->
+    <bool name="config_resetScreenTimeoutOnUnexpectedDreamExit">true</bool>
 
     <!-- Whether to automatically switch to the designated Dock User (the user chosen for
          displaying dreams, etc.) after a timeout when the device is docked.  -->
