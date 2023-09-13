@@ -13,6 +13,6 @@
     <string name="reset_network_title">Wi-Fi နှင့် ဘလူးတုသ်ကို ပြင်ဆင်သတ်မှတ်ရန်</string>
     <string name="sound_dashboard_summary">အသံအတိုးအကျယ်၊ မနှောင့်ယှက်ရ</string>
     <string name="sound_settings">အသံ</string>
-    <string name="tether_settings_title_all">မိုဘိုင်းသုံးတွဲချိတ်မှု</string>
-    <string name="tethering_footer_info">USB၊ အီသာနက် (သို့) ဘလူးတုသ်မှတစ်ဆင့် အခြားစက်များကို အင်တာနက်ပေးရန် မိုဘိုင်းသုံးတွဲချိတ်မှု သုံးနိုင်သည်။</string>
+    <string name="tether_settings_title_all">မိုဘိုင်းသုံး၍ ချိတ်ဆက်ခြင်း</string>
+    <string name="tethering_footer_info">USB၊ အီသာနက် (သို့) ဘလူးတုသ်မှတစ်ဆင့် အခြားစက်များကို အင်တာနက်ပေးရန် မိုဘိုင်းသုံး၍ ချိတ်ဆက်နိုင်သည်။</string>
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="charging_sounds_title">Âm thanh sạc</string>
+    <string name="charging_sounds_title">Âm thanh khi sạc</string>
     <string name="data_usage_app_summary_title">Wi‑Fi</string>
     <string name="edge_to_edge_navigation_summary">Để chuyển đến màn hình chính, hãy vuốt lên thật nhanh từ cuối màn hình. Để truy cập vào Taskbar, vuốt chậm từ cuối màn hình lên. Để chuyển đổi giữa các ứng dụng, hãy vuốt lên từ cuối màn hình, giữ rồi thả ra. Để quay lại, hãy vuốt từ mép trái hoặc mép phải.</string>
     <string name="network_dashboard_summary_no_mobile">Wi‑Fi</string>

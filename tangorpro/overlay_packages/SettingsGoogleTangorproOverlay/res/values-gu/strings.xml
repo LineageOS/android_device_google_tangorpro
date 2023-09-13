@@ -13,6 +13,6 @@
     <string name="reset_network_title">વાઇ-ફાઇ અને બ્લૂટૂથ રીસેટ કરો</string>
     <string name="sound_dashboard_summary">વૉલ્યૂમ, ખલેલ પાડશો નહીં</string>
     <string name="sound_settings">સાઉન્ડ</string>
-    <string name="tether_settings_title_all">ઇન્ટરનેટ શેરિંગ સુવિધા</string>
+    <string name="tether_settings_title_all">ટિથરિંગ</string>
     <string name="tethering_footer_info">USB, ઇથરનેટ અથવા બ્લૂટૂથ મારફતે અન્ય ડિવાઇસને ઇન્ટનેટ પ્રદાન કરવા માટે ઇન્ટરનેટ શેર કરવાની સુવિધાનો ઉપયોગ કરો.</string>
 </resources>

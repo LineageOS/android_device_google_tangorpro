@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="communal_settings_title">Hub Mode</string>
+    <string name="communal_settings_title">Hub mode</string>
     <string name="dream_no_screen_saver_caption">No screen saver</string>
     <string name="dream_no_screen_saver_description">To save energy, your screen will turn off after inactivity</string>
     <string name="dream_no_screen_saver_preview_caption">Eco-friendly</string>

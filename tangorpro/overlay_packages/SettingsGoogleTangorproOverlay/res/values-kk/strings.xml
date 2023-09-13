@@ -11,7 +11,7 @@
 "<li>Wi‑Fi</li>"
 "<li>Bluetooth</li></string>
     <string name="reset_network_title">Wi-Fi мен Bluetooth-ты қайта орнату</string>
-    <string name="sound_dashboard_summary">Дыбыс деңгейі, \"Мазаламау\" режимі</string>
+    <string name="sound_dashboard_summary">Дыбыс деңгейі, мазаламау режимі</string>
     <string name="sound_settings">Дыбыс</string>
     <string name="tether_settings_title_all">Тетеринг</string>
     <string name="tethering_footer_info">USB, Ethernet не Bluetooth арқылы басқа құрылғыларды интернетке қосу үшін тетеринг функциясын пайдаланыңыз.</string>

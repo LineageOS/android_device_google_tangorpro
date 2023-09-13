@@ -4,7 +4,7 @@
     <string name="data_usage_app_summary_title">Wi-Fi</string>
     <string name="edge_to_edge_navigation_summary">"Pour revenir à l'accueil, balayez rapidement l'écran de bas en haut. Pour accéder à la barre des tâches, balayez lentement l'écran de bas en haut. Pour changer d'appli, balayez l'écran de bas en haut, appuyez de manière prolongée et relâchez. Pour revenir en arrière, balayez l'écran de gauche à droite ou de droite à gauche."</string>
     <string name="network_dashboard_summary_no_mobile">Wi-Fi</string>
-    <string name="non_carrier_data_usage">Consommation de données en Wi-Fi</string>
+    <string name="non_carrier_data_usage">Consommation des données Wi-Fi</string>
     <string name="non_carrier_data_usage_warning" />
     <string name="reset_network_desc">"Tous les paramètres réseau seront réinitialisés, y compris :
 
