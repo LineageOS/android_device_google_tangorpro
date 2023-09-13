@@ -160,6 +160,8 @@
          expect the relaunch upon the desk uiMode change. -->
     <bool name="config_skipActivityRelaunchWhenDocking">true</bool>
 
+    <bool name="config_resetScreenTimeoutOnUnexpectedDreamExit">true</bool>
+
     <!-- If this is true, then keep dreaming when undocking. -->
     <bool name="config_keepDreamingWhenUndocking">true</bool>
 
