@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_enableBouncerUserSwitcher">true</bool>
+    <bool name="config_enableFullscreenUserSwitcher">true</bool>
+    <bool name="doze_display_state_supported">true</bool>
+    <bool name="flag_battery_shield_icon">true</bool>
+    <bool name="flag_user_switcher_chip">true</bool>
+</resources>

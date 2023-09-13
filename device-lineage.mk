@@ -13,7 +13,11 @@ PRODUCT_PACKAGES += \
 # RRO
 PRODUCT_PACKAGES += \
     GrilRadioCustomizableNoRadio \
-    TangorproGMSOverlay
+    SettingsGoogleTangorproOverlay \
+    TangorproGMSOverlay \
+    TitanSettingsOverlay \
+    TitanSettingsProviderOverlay \
+    TitanSysuiConfigOverlay
 
 # Build necessary packages for vendor
 
