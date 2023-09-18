@@ -25,6 +25,7 @@ product/priv-app/CastAuthPrebuilt/CastAuthPrebuilt.apk;PRESIGNED
 
 # Dock
 product/etc/sysconfig/pixel_docking_experience_2022.xml
+product/priv-app/PrebuiltGmsCore/m/optional/UsoniaPrebuilt.apk:product/priv-app/UsoniaPrebuilt/UsoniaPrebuilt.apk;PRESIGNED
 product/priv-app/PrebuiltGmsCore/m/optional/HomegraphPrebuilt.apk:product/priv-app/HomegraphPrebuilt/HomegraphPrebuilt.apk;PRESIGNED
 
 # Hardware info
