@@ -19,7 +19,7 @@ product/app/PixelCameraServicesT6PRO/PixelCameraServicesT6PRO.apk;PRESIGNED
 # Cast
 product/etc/permissions/com.google.android.apps.nest.castauth.xml
 product/etc/sysconfig/communal.xml
-product/priv-app/CastAuthPrebuilt/CastAuthPrebuilt.apk
+product/priv-app/CastAuthPrebuilt/CastAuthPrebuilt.apk;PRESIGNED
 
 # Dock
 product/etc/sysconfig/pixel_docking_experience_2022.xml
@@ -58,8 +58,8 @@ system_ext/framework/com.google.android.camera.extensions.jar
 # Dock
 system_ext/etc/permissions/com.google.android.apps.nest.dockmanager.app.xml
 system_ext/etc/sysconfig/google-nest-hiddenapi-package-whitelist.xml
-system_ext/priv-app/DockManagerPrebuilt/DockManagerPrebuilt.apk
-system_ext/priv-app/DockSetup/DockSetup.apk
+system_ext/priv-app/DockManagerPrebuilt/DockManagerPrebuilt.apk;PRESIGNED
+system_ext/priv-app/DockSetup/DockSetup.apk;PRESIGNED
 
 # Edge TPU
 system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service
