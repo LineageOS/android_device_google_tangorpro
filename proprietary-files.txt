@@ -72,9 +72,6 @@ system_ext/framework/com.google.android.camera.extensions.jar
 system_ext/framework/com.google.android.camerax.extensions.jar
 
 # Dock
-system_ext/etc/permissions/com.google.android.apps.nest.dockmanager.app.xml
-system_ext/etc/sysconfig/google-nest-hiddenapi-package-whitelist.xml
-system_ext/priv-app/DockManagerPrebuilt/DockManagerPrebuilt.apk;PRESIGNED
 system_ext/priv-app/DockSetup/DockSetup.apk;PRESIGNED
 
 # Edge TPU
