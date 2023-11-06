@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c58bc7c_72d3486f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-11-06T09:57:27Z",
+      "side": 1,
+      "message": "This makes statusbar padding equal on both sides.",
+      "revId": "aeb119c17a3f0538ef5ca482347eaf6bc9eabb21",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
