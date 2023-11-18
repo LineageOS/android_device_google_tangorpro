@@ -49,11 +49,16 @@ PRODUCT_PACKAGES += \
     android.hardware.confirmationui-lib.trusty:64 \
     libteeui_hal_support.vendor:64
 
+<<<<<<< HEAD   (bf5d56 tangorpro: overlay: Increase status_bar_padding_start)
 # Graphics
 PRODUCT_PACKAGES += \
     libEGL_angle \
     libGLESv1_CM_angle \
     libGLESv2_angle
+=======
+# GMS
+WITH_GMS_COMMS_SUITE := false
+>>>>>>> CHANGE (d5d8f9 tangorpro: Opt out of GMS comms suite)
 
 # HIDL
 PRODUCT_PACKAGES += \
