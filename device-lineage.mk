@@ -10,6 +10,9 @@ DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay-lineage
 PRODUCT_PACKAGES += \
     ANGLE
 
+# GMS
+WITH_GMS_COMMS_SUITE := false
+
 # RRO
 PRODUCT_PACKAGES += \
     GrilRadioCustomizableNoRadio \
