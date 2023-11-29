@@ -1074,6 +1074,12 @@ VENDOR_SKIP_FILES=(
     "lib/pixel-power-ext-V1-ndk.so"
     "lib64/libGralloc4Wrapper.so"
 
+    # Charger
+    "res/images/charger/animation.txt"
+    "res/images/charger/battery_fail.png"
+    "res/images/charger/battery_scale.png"
+    "res/images/charger/main_font.png"
+
     # Codec2
     "lib/android.hardware.media.bufferpool2-V1-ndk.so"
     "lib/android.hardware.media.c2@1.0.so"
