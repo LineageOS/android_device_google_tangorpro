@@ -30,8 +30,8 @@ product/etc/permissions/com.google.android.apps.nest.dockmanager.app.xml
 product/etc/sysconfig/google-nest-hiddenapi-package-whitelist.xml
 product/etc/sysconfig/pixel_docking_experience_2022.xml
 product/priv-app/DockManagerPrebuilt/DockManagerPrebuilt.apk;PRESIGNED
-product/priv-app/PrebuiltGmsCore/m/optional/UsoniaPrebuilt.apk:product/priv-app/UsoniaPrebuilt/UsoniaPrebuilt.apk;PRESIGNED
 product/priv-app/PrebuiltGmsCore/m/optional/HomegraphPrebuilt.apk:product/priv-app/HomegraphPrebuilt/HomegraphPrebuilt.apk;PRESIGNED
+product/priv-app/PrebuiltGmsCore/m/optional/UsoniaPrebuilt.apk:product/priv-app/UsoniaPrebuilt/UsoniaPrebuilt.apk;PRESIGNED
 
 # Hardware info
 product/etc/permissions/com.google.android.hardwareinfo.xml
@@ -58,10 +58,10 @@ product/etc/sysconfig/pixel_experience_2019.xml
 product/etc/sysconfig/pixel_experience_2019_midyear.xml
 product/etc/sysconfig/pixel_experience_2020.xml
 product/etc/sysconfig/pixel_experience_2020_midyear.xml
-product/etc/sysconfig/pixel_experience_2021_midyear.xml
 product/etc/sysconfig/pixel_experience_2021.xml
-product/etc/sysconfig/pixel_experience_2022_midyear.xml
+product/etc/sysconfig/pixel_experience_2021_midyear.xml
 product/etc/sysconfig/pixel_experience_2022.xml
+product/etc/sysconfig/pixel_experience_2022_midyear.xml
 product/etc/sysconfig/pixel_tablet_experience_2023.xml
 
 # system_ext partition
