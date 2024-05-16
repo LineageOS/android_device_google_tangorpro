@@ -18,6 +18,12 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Whether per-app fullscreen override option is allowed in user aspect ratio settings -->
+    <bool name="config_appCompatUserAppAspectRatioFullscreenIsEnabled">true</bool>
+
+    <!-- Whether per-app user aspect ratio override settings is enabled -->
+    <bool name="config_appCompatUserAppAspectRatioSettingsIsEnabled">true</bool>
+
     <!-- Control whether being in the desk dock should enable accelerometer
          based screen orientation.  This defaults to true because it is
          common for desk docks to be sold in a variety of form factors
