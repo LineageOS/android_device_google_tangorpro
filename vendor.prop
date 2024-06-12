@@ -2,9 +2,6 @@
 drm.service.enabled=true
 media.mediadrmservice.enable=true
 
-# Graphics
-ro.gfx.angle.supported=true
-
 # SSR
 vendor.debug.ssrdump.type=sscoredump
 

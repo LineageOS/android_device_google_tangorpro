@@ -15,7 +15,7 @@ product/etc/firmware/music_detector.sound_model_tflite
 
 # Camera extensions
 product/etc/permissions/androidx.camera.extensions.impl.xml
-product/priv-app/PixelCameraServicesT6PRO/PixelCameraServicesT6PRO.apk;PRESIGNED
+product/priv-app/PixelCameraServices/PixelCameraServices.apk;PRESIGNED
 
 # Cast
 product/etc/default-permissions/default-permissions_SmartDisplayPrebuilt.xml
@@ -81,7 +81,7 @@ system_ext/etc/init/vendor.google.edgetpu_app_service@1.0-service.rc
 system_ext/etc/public.libraries-google.txt
 system_ext/etc/vintf/manifest/vendor.google.edgetpu_app_service@1.0-service.xml
 system_ext/lib/libedgetpu_dba.google.so
-system_ext/lib64/com.google.edgetpu_app_service-V2-ndk.so
+system_ext/lib64/com.google.edgetpu_app_service-V3-ndk.so
 system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so
 system_ext/lib64/libedgetpu_dba.google.so
 
