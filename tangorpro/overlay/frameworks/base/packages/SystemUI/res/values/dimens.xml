@@ -16,6 +16,12 @@
 */
 -->
 <resources>
+    <!-- the padding on the start of the statusbar -->
+    <dimen name="status_bar_padding_start">0dp</dimen>
+
+    <!--  Total minimum padding to enforce to ensure that the dot can always show  -->
+    <dimen name="ongoing_appops_dot_min_padding">12dp</dimen>
+
     <!-- Location on the screen of the center of the fingerprint sensor. -->
     <dimen name="physical_fingerprint_sensor_center_screen_location_x">0px</dimen>
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">160px</dimen>
