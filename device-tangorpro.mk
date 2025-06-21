@@ -18,9 +18,9 @@ TARGET_RECOVERY_DEFAULT_ROTATION := ROTATION_LEFT
 TARGET_RECOVERY_DEFAULT_TOUCH_ROTATION := $(TARGET_RECOVERY_DEFAULT_ROTATION)
 
 TARGET_LINUX_KERNEL_VERSION := $(RELEASE_KERNEL_TANGORPRO_VERSION)
-# Keeps flexibility for kasan and ufs builds
-TARGET_KERNEL_DIR ?= $(RELEASE_KERNEL_TANGORPRO_DIR)
-TARGET_BOARD_KERNEL_HEADERS ?= $(RELEASE_KERNEL_TANGORPRO_DIR)/kernel-headers
+TARGET_KERNEL_DEVICE := tangorpro
+TARGET_KERNEL_DIR := device/google/$(TARGET_KERNEL_DEVICE)-kernels/$(TARGET_LINUX_KERNEL_VERSION)
+TARGET_KERNEL_PLATFORM_SOURCE := google/gs-$(TARGET_LINUX_KERNEL_VERSION)
 
 BOARD_WITHOUT_RADIO := true
 
@@ -75,14 +75,6 @@ PRODUCT_COPY_FILES += \
 # Recovery files
 PRODUCT_COPY_FILES += \
         device/google/tangorpro/conf/init.recovery.device.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.tangorpro.rc
-
-# insmod files. Kernel 5.10 prebuilts don't provide these yet, so provide our
-# own copy if they're not in the prebuilts.
-# TODO(b/369686096): drop this when 5.10 is gone.
-ifeq ($(wildcard $(TARGET_KERNEL_DIR)/init.insmod.*.cfg),)
-PRODUCT_COPY_FILES += \
-	device/google/tangorpro/init.insmod.tangorpro.cfg:$(TARGET_COPY_OUT_VENDOR_DLKM)/etc/init.insmod.tangorpro.cfg
-endif
 
 # Camera
 PRODUCT_COPY_FILES += \
