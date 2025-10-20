@@ -120,6 +120,7 @@ vendor/etc/sensors/registry/append/motion_state.reg
 vendor/etc/sensors/registry/append/power.reg
 vendor/etc/sensors/registry/tangorpro_black.reg
 vendor/etc/sensors/registry/tangorpro_white.reg
+vendor/etc/sysconfig/vendor-apex-allowlist-lyric.xml
 vendor/etc/touchflow.pb
 vendor/etc/twoshay_config.json
 vendor/etc/uwb/calib_paths
@@ -131,7 +132,6 @@ vendor/etc/vintf/manifest/android.hardware.neuralnetworks@service-darwinn-aidl.x
 vendor/etc/vintf/manifest/android.hardware.oemlock-service.citadel.xml
 vendor/etc/vintf/manifest/android.hardware.security.keymint-service.citadel.xml
 vendor/etc/vintf/manifest/android.hardware.weaver-service.citadel.xml
-vendor/etc/vintf/manifest/com.google.edgetpu.tachyon-service.xml
 vendor/etc/vintf/manifest/fingerprint-fpc42.xml
 vendor/etc/vintf/manifest/hwc3-default.xml
 vendor/etc/vintf/manifest/manifest.xml
@@ -170,8 +170,6 @@ vendor/firmware/gxp_fw_core1
 vendor/firmware/gxp_fw_core2
 vendor/firmware/gxp_fw_core3
 vendor/firmware/logstrs.bin
-vendor/firmware/mali_csffw-r50p0.bin
-vendor/firmware/mali_csffw-r51p0.bin
 vendor/firmware/mali_csffw-r52p0.bin
 vendor/firmware/mali_csffw-r53p0.bin
 vendor/firmware/mali_csffw-r54p0.bin
@@ -184,6 +182,8 @@ vendor/firmware/sarconfig.info
 vendor/firmware/syna/BTFW.hcd
 vendor/firmware/syna/BTFW_B.hcd
 vendor/framework/com.google.android.camera.experimental2022.jar
+vendor/lib/android.hardware.contexthub-V4-ndk.so
+vendor/lib/android.hardware.graphics.common-V7-ndk.so
 vendor/lib/aoc_aud_ext.so
 vendor/lib/aoc_audio_stereo_spatializer.so
 vendor/lib/aocx-V2-ndk.so
@@ -201,6 +201,7 @@ vendor/lib/audio_tunnel_aoc.so
 vendor/lib/audio_usb_aoc.so
 vendor/lib/audio_waves_aoc.so
 vendor/lib/com.google.edgetpu_app_service-V3-ndk.so;MODULE_SUFFIX=_vendor
+vendor/lib/com.google.hardware.pixel.display-V15-ndk.so
 vendor/lib/egl/libGLES_mali.so
 vendor/lib/gxp_metrics_logger.so
 vendor/lib/hw/audio.platform.aoc.so
@@ -250,7 +251,6 @@ vendor/lib/libgc2_store.so
 vendor/lib/libgc2_utils.so
 vendor/lib/libgpudataproducer.so
 vendor/lib/libhwjpeg.so
-vendor/lib/libion_exynos.so
 vendor/lib/libion_google.so
 vendor/lib/libmahalcontroller.so
 vendor/lib/libmetrics_logger.so
@@ -267,7 +267,9 @@ vendor/lib/soundfx/libspatialaudio.so
 vendor/lib/vendor.google.battery_mitigation-V1-ndk.so
 vendor/lib/vendor.google.battery_mitigation.service_static.so
 vendor/lib/vendor.google.whitechapel.audio.audioext@4.0.so
+vendor/lib/vendor.google.whitechapel.audio.extension-V5-ndk.so
 vendor/lib64/android.hardware.authsecret-impl.nos.so
+vendor/lib64/android.hardware.graphics.common-V7-ndk.so
 vendor/lib64/android.hardware.oemlock-impl.nos.so
 vendor/lib64/android.hardware.security.keymint-impl.nos.so
 vendor/lib64/android.hardware.weaver-bridge.nos.so
@@ -297,8 +299,9 @@ vendor/lib64/com.google.edgetpu_app_service-V3-ndk.so;MODULE_SUFFIX=_vendor
 vendor/lib64/com.google.edgetpu_vendor_service-V2-ndk.so;MODULE_SUFFIX=_vendor
 vendor/lib64/com.google.hardware.biometrics.parcelable.fingerprint.PressToAuthParcelable-V1-ndk.so
 vendor/lib64/com.google.hardware.biometrics.sidefps.fingerprint-ext-V1-ndk.so
+vendor/lib64/com.google.hardware.pixel.display-V16-ndk.so
 vendor/lib64/com.google.input-V2-ndk.so
-vendor/lib64/com.google.input-V5-ndk.so
+vendor/lib64/com.google.input-V6-ndk.so
 vendor/lib64/egl/libGLES_mali.so
 vendor/lib64/fake_gxp_telemetry_reader.so
 vendor/lib64/fpc42_suez.so
@@ -368,7 +371,6 @@ vendor/lib64/libgpudataproducer.so
 vendor/lib64/libgril_oem-google.so
 vendor/lib64/libgxp.so
 vendor/lib64/libhwjpeg.so
-vendor/lib64/libion_exynos.so
 vendor/lib64/libion_google.so
 vendor/lib64/libmahalcontroller.so
 vendor/lib64/libmemtrack-pixel.so
@@ -397,7 +399,8 @@ vendor/lib64/vendor.google.audiometricext@1.0.so
 vendor/lib64/vendor.google.battery_mitigation-V1-ndk.so
 vendor/lib64/vendor.google.battery_mitigation.service_static.so
 vendor/lib64/vendor.google.bluetooth_ext-V1-ndk.so
-vendor/lib64/vendor.google.google_battery-V3-ndk.so
+vendor/lib64/vendor.google.google_battery-V4-ndk.so
 vendor/lib64/vendor.google.whitechapel.audio.audioext@4.0.so
+vendor/lib64/vendor.google.whitechapel.audio.extension-V5-ndk.so
 vendor/lib64/vendor_chre_atoms_log.so
 vendor/lib64/vendor_chre_metrics-cpp.so
