@@ -120,6 +120,10 @@ system_ext/priv-app/grilservice/grilservice.apk;PRESIGNED
 system_ext/etc/permissions/privapp-permissions-qorvo.xml
 system_ext/priv-app/UwbVendorService/UwbVendorService.apk;PRESIGNED
 
+# Watchdog
+system_ext/bin/gs_watchdogd
+system_ext/etc/init/init.gs_watchdogd.rc
+
 # vendor partition
 
 # Touchscreen
