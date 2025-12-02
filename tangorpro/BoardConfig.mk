@@ -19,7 +19,6 @@ BOARD_KERNEL_CMDLINE += exynos_drm.load_sequential=1
 BOARD_KERNEL_CMDLINE += swiotlb=noforce
 
 include device/google/gs201/BoardConfig-common.mk
-include device/google/tangorpro/sepolicy/tangorpro-sepolicy.mk
 include device/google/tangorpro/wifi/BoardConfig-wifi.mk
 
 # Kernel modules
@@ -27,5 +26,12 @@ BOARD_VENDOR_KERNEL_RAMDISK_KERNEL_MODULES_BLOCKLIST_FILE := $(DEVICE_PATH)/reco
 BOARD_VENDOR_KERNEL_RAMDISK_KERNEL_MODULES_LOAD_RAW := $(strip $(shell cat $(DEVICE_PATH)/recovery/modules.load.vendor_kernel_boot))
 BOARD_VENDOR_KERNEL_RAMDISK_KERNEL_MODULES_LOAD += $(BOARD_VENDOR_KERNEL_RAMDISK_KERNEL_MODULES_LOAD_RAW)
 BOARD_VENDOR_KERNEL_RAMDISK_KERNEL_MODULES += $(addprefix $(KERNEL_MODULE_DIR)/, $(notdir $(BOARD_VENDOR_KERNEL_RAMDISK_KERNEL_MODULES_LOAD_RAW)))
+
+# SEPolicy
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    device/google/tangorpro/sepolicy/vendor
+
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
+    device/google/tangorpro/sepolicy/system_ext/private
 
 include $(VENDOR_PATH)/BoardConfigVendor.mk
