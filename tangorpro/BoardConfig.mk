@@ -30,7 +30,11 @@ BOARD_VENDOR_KERNEL_RAMDISK_KERNEL_MODULES_LOAD += $(BOARD_VENDOR_KERNEL_RAMDISK
 BOARD_VENDOR_KERNEL_RAMDISK_KERNEL_MODULES += $(addprefix $(KERNEL_MODULE_DIR)/, $(notdir $(BOARD_VENDOR_KERNEL_RAMDISK_KERNEL_MODULES_LOAD_RAW)))
 
 # SEPolicy
-include device/google/tangorpro/sepolicy/tangorpro-sepolicy.mk
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    $(DEVICE_PATH)/sepolicy/vendor
+
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
+    $(DEVICE_PATH)/sepolicy/system_ext/private
 
 # WiFi
 include $(DEVICE_PATH)/wifi/BoardConfig-wifi.mk
