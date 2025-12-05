@@ -45,10 +45,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.bluetooth.leaudio.le_audio_connection_by_default=false
 
-# Bluetooth HAL and Pixel extension
-DEVICE_MANIFEST_FILE += \
-       device/google/tangorpro/bluetooth/manifest_bluetooth.xml
-DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += device/google/tangorpro/bluetooth/device_framework_matrix_product.xml
+# Bluetooth HAL
 PRODUCT_PACKAGES += \
         android.hardware.bluetooth.prebuilt.xml \
         android.hardware.bluetooth_le.prebuilt.xml

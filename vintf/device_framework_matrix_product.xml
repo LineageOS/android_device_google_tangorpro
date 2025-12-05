@@ -1,5 +1,10 @@
-<compatibility-matrix version="1.0" type="framework" level="7">
-    <hal format="hidl" optional="true">
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<compatibility-matrix version="9.0" type="framework">
+    <hal format="hidl">
         <name>hardware.google.bluetooth.bt_channel_avoidance</name>
         <version>1.0</version>
         <interface>
@@ -7,15 +12,15 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl" optional="true">
-        <name>hardware.google.bluetooth.sar</name>
+    <hal format="hidl">
+        <name>hardware.google.bluetooth.ccc</name>
         <version>1.1</version>
         <interface>
-            <name>IBluetoothSar</name>
+            <name>IBluetoothCcc</name>
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl" optional="true">
+    <hal format="hidl">
         <name>hardware.google.bluetooth.ext</name>
         <version>1.0</version>
         <interface>
@@ -23,12 +28,11 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl" optional="true">
-        <name>hardware.google.bluetooth.ccc</name>
-        <transport>hwbinder</transport>
+    <hal format="hidl">
+        <name>hardware.google.bluetooth.sar</name>
         <version>1.1</version>
         <interface>
-            <name>IBluetoothCcc</name>
+            <name>IBluetoothSar</name>
             <instance>default</instance>
         </interface>
     </hal>

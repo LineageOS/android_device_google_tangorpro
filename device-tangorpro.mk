@@ -188,3 +188,9 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/$(DEVICE_CODENAME)/vendor.prop
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.dynamic_sensor_hal
+
+# VINTF
+DEVICE_MANIFEST_FILE += \
+    $(DEVICE_PATH)/vintf/manifest.xml
+DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += \
+    $(DEVICE_PATH)/vintf/device_framework_matrix_product.xml
