@@ -1,0 +1,24 @@
+# Bluetooth
+bluetooth.hfp.swb.supported=false
+bluetooth.leaudio.dual_bidirection_swb.supported=false
+bluetooth.profile.bap.unicast.client.enabled?=true
+bluetooth.profile.ccp.server.enabled?=true
+bluetooth.profile.csip.set_coordinator.enabled?=true
+bluetooth.profile.hap.client.enabled?=true
+bluetooth.profile.map.server.enabled=false
+bluetooth.profile.mcp.server.enabled?=true
+bluetooth.profile.pbap.server.enabled=false
+bluetooth.profile.sap.server.enabled=false
+bluetooth.profile.vcp.controller.enabled?=true
+persist.bluetooth.bqr.event_mask=94
+persist.bluetooth.firmware.selection=BTFW.hcd
+persist.bluetooth.leaudio.toggle_visible=false
+persist.bluetooth.opus.enabled=true
+ro.bluetooth.leaudio.le_audio_connection_by_default=false
+ro.bluetooth.leaudio_switcher.supported=true
+
+# Cast
+ro.odm.cast.ssid_suffix=ynn
+
+# fsck
+persist.fsck.disable_linear_lookup=on
