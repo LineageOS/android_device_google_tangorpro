@@ -50,13 +50,6 @@ PRODUCT_PACKAGES += \
         android.hardware.bluetooth.prebuilt.xml \
         android.hardware.bluetooth_le.prebuilt.xml
 
-# default BDADDR for EVB only
-PRODUCT_PROPERTY_OVERRIDES += \
-       ro.vendor.bluetooth.evb_bdaddr="22:22:22:33:44:55"
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.bluetooth.a2dp_offload.supported=true \
-    persist.bluetooth.a2dp_offload.disabled=false \
-    persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac-opus
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.bluetooth.firmware.selection="BTFW.hcd"
 

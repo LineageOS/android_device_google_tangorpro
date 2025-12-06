@@ -1,6 +1,53 @@
+# Assistant
+ro.config.assistant_vol_min=1
+
+# Audio
+audio.spatializer.effect.util_clamp_min=300
+persist.vendor.audio.spatializer.speaker_enabled=true
+persist.vendor.audio.speech_enhancement.enable=1
+ro.audio.multi_usb_mode=true
+ro.audio.spatializer_enabled=true
+
+# Bluetooth
+persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac-opus
+persist.bluetooth.a2dp_offload.disabled=false
+ro.bluetooth.a2dp_offload.supported=true
+ro.vendor.bluetooth.evb_bdaddr=22:22:22:33:44:55
+
+# Camera
+camera.enable_landscape_to_portrait=true
+persist.vendor.camera.adjust_backend_min_freq_for_1p_front_video_1080p_30fps=1
+persist.vendor.camera.bypass_sensor_binning_resolution_condition=1
+persist.vendor.camera.debug.bypass_csi_link_crc_error=true
+persist.vendor.camera.exif_reveal_make_model=true
+persist.vendor.camera.extended_launch_boost=1
+persist.vendor.camera.increase_thread_priority_nodes_stop=true
+persist.vendor.camera.raise_buf_allocation_priority=1
+
+# Device family
+ro.build.device_family=T6P
+
+# Display
+debug.sf.ignore_hwc_physical_display_orientation=true
+ro.bootanim.set_orientation_4619827677550801152=ORIENTATION_270
+ro.surface_flinger.display_primary_blue=0.2057,0.0823,1.0832
+ro.surface_flinger.display_primary_green=0.2598,0.6764,0.0441
+ro.surface_flinger.display_primary_red=0.5128,0.2413,0.0000
+ro.surface_flinger.display_primary_white=0.9783,1.0000,1.1273
+ro.surface_flinger.primary_display_orientation=ORIENTATION_0
+vendor.display.cabc.supported?=1
+vendor.display.dynamic_recomposition=1
+vendor.display.lbe.supported=1
+
 # DRM
 drm.service.enabled=true
 media.mediadrmservice.enable=true
 
 # UWB
 ro.vendor.uwb.calibration.calibrationpaths=/vendor/etc/uwb/calib_paths
+
+# WiFi
+ro.vendor.wifi.sap.interface=wlan1
+
+# ZRAM
+vendor.zram.size=3g
