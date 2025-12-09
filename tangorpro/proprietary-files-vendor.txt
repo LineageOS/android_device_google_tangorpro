@@ -2,6 +2,7 @@
 vendor/apex/com.google.android.widevine-13130248.apex
 vendor/apex/com.google.pixel.camera.hal.apex
 vendor/apex/com.google.pixel.wifi.ext.apex
+vendor/app/HardwareInfo/HardwareInfo.apk
 vendor/bin/aocd
 vendor/bin/aocxd
 vendor/bin/dump/dump_aoc
@@ -27,7 +28,7 @@ vendor/bin/hw/android.hardware.bluetooth@1.1-service.synabtlinux
 vendor/bin/hw/android.hardware.composer.hwc3-service.pixel
 vendor/bin/hw/android.hardware.contexthub-service.generic
 vendor/bin/hw/android.hardware.drm-service.castkey
-vendor/bin/hw/android.hardware.dumpstate-service
+vendor/bin/hw/android.hardware.dumpstate.3-service
 vendor/bin/hw/android.hardware.edgetpu.logging@service-edgetpu-logging
 vendor/bin/hw/android.hardware.graphics.allocator-V2-service
 vendor/bin/hw/android.hardware.gxp.logging@service-gxp-logging
@@ -140,7 +141,7 @@ vendor/etc/init/android.hardware.bluetooth@1.1-service.synabtlinux.rc
 vendor/etc/init/android.hardware.camera.provider@2.7-service-google-apex.rc
 vendor/etc/init/android.hardware.contexthub-service.generic.rc
 vendor/etc/init/android.hardware.drm-service.castkey.rc
-vendor/etc/init/android.hardware.dumpstate-service.rc
+vendor/etc/init/android.hardware.dumpstate.3-service.rc
 vendor/etc/init/android.hardware.edgetpu.logging@service-edgetpu-logging.rc
 vendor/etc/init/android.hardware.graphics.allocator2-aidl-service.rc
 vendor/etc/init/android.hardware.gxp.logging@service-gxp-logging.rc
@@ -217,6 +218,7 @@ vendor/etc/modem/logging.conf
 vendor/etc/modem_stat.conf
 vendor/etc/permissions/android.hardware.strongbox_keystore.xml
 vendor/etc/permissions/com.google.android.camera.experimental2022.xml
+vendor/etc/permissions/com.google.android.hardwareinfo.xml
 vendor/etc/permissions/vendor.android.hardware.camera.preview-dis.xml
 vendor/etc/pixelstats_config.json
 vendor/etc/powerhint.json
@@ -293,7 +295,7 @@ vendor/etc/uwb/libuwb-uci.conf
 vendor/etc/vintf/manifest/android.hardware.authsecret-service.citadel.xml
 vendor/etc/vintf/manifest/android.hardware.camera.provider@2.7-service-google-apex.xml
 vendor/etc/vintf/manifest/android.hardware.contexthub-service.generic.xml
-vendor/etc/vintf/manifest/android.hardware.dumpstate-service.xml
+vendor/etc/vintf/manifest/android.hardware.dumpstate.3-service.xml
 vendor/etc/vintf/manifest/android.hardware.neuralnetworks@service-darwinn-aidl.xml
 vendor/etc/vintf/manifest/android.hardware.oemlock-service.citadel.xml
 vendor/etc/vintf/manifest/android.hardware.security.keymint-service.citadel.xml
@@ -359,6 +361,7 @@ vendor/firmware/logstrs.bin
 vendor/firmware/mali_csffw-r52p0.bin
 vendor/firmware/mali_csffw-r53p0.bin
 vendor/firmware/mali_csffw-r54p0.bin
+vendor/firmware/mali_csffw-r54p1.bin
 vendor/firmware/mfc_fw.bin
 vendor/firmware/novatek_ts_fw.bin
 vendor/firmware/novatek_ts_fw_csot.bin
@@ -519,9 +522,11 @@ vendor/lib64/libExynosHWCService.so
 vendor/lib64/libOpenCL-pixel.so
 vendor/lib64/lib_aion_buffer.so
 vendor/lib64/lib_reader.so
+vendor/lib64/lib_vendor_gsc_atoms.so
 vendor/lib64/libacryl.so
 vendor/lib64/libacryl_hdr_plugin.so
 vendor/lib64/libadaptedinfo.so
+vendor/lib64/libalertv3.so
 vendor/lib64/libamcsextfile.so
 vendor/lib64/libaoc.so
 vendor/lib64/libaoctuningdecoder.so
@@ -589,7 +594,7 @@ vendor/lib64/vendor.google.audiometricext@1.0.so
 vendor/lib64/vendor.google.battery_mitigation-V1-ndk.so
 vendor/lib64/vendor.google.battery_mitigation.service_static.so
 vendor/lib64/vendor.google.bluetooth_ext-V1-ndk.so
-vendor/lib64/vendor.google.google_battery-V4-ndk.so
+vendor/lib64/vendor.google.google_battery-V5-ndk.so
 vendor/lib64/vendor.google.whitechapel.audio.audioext@4.0.so
 vendor/lib64/vendor.google.whitechapel.audio.extension-V5-ndk.so
 vendor/lib64/vendor_chre_atoms_log.so
