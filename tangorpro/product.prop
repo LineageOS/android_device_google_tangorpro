@@ -19,3 +19,6 @@ ro.bluetooth.leaudio_switcher.supported=true
 
 # Cast
 ro.odm.cast.ssid_suffix=ynn
+
+# Hotword
+ro.hotword.visual_query_service_enabled=true
