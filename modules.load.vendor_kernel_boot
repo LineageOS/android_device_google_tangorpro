@@ -1,2 +1,3 @@
 extra/goog_touch_interface.ko
+extra/goog_usi_stylus.ko
 extra/nvt_touch.ko

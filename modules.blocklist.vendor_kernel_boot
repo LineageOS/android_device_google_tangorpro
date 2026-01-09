@@ -1,2 +1,3 @@
 blocklist goog_touch_interface.ko
+blocklist goog_usi_stylus.ko
 blocklist nvt_touch.ko
