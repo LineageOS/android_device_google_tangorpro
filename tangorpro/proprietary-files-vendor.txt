@@ -1,5 +1,5 @@
 # All blobs below are extracted from the release mentioned in proprietary-files.txt
-vendor/apex/com.google.android.widevine-13130248.apex
+vendor/apex/com.google.android.widevine-15027108-cp2a.apex
 vendor/apex/com.google.pixel.camera.hal.apex
 vendor/apex/com.google.pixel.wifi.ext.apex
 vendor/app/HardwareInfo/HardwareInfo.apk
@@ -22,6 +22,7 @@ vendor/bin/dump/dump_touch.sh
 vendor/bin/dump/dump_trusty.sh
 vendor/bin/dump/dump_umfw_stat
 vendor/bin/dump_touch/predump_gti0.sh
+vendor/bin/gpuflag
 vendor/bin/hw/android.hardware.authsecret-service.citadel
 vendor/bin/hw/android.hardware.biometrics.fingerprint-service.fpc42
 vendor/bin/hw/android.hardware.bluetooth@1.1-service.synabtlinux
@@ -41,6 +42,7 @@ vendor/bin/hw/android.hardware.qorvo.uwb.service
 vendor/bin/hw/android.hardware.security.keymint-service.citadel
 vendor/bin/hw/android.hardware.weaver-service.citadel
 vendor/bin/hw/battery_mitigation
+vendor/bin/hw/block_queue_depth
 vendor/bin/hw/citadel_updater
 vendor/bin/hw/citadeld
 vendor/bin/hw/com.google.edgetpu.tachyon-service
@@ -48,7 +50,8 @@ vendor/bin/hw/disable_contaminant_detection.sh
 vendor/bin/hw/google.hardware.media.c2@1.0-service
 vendor/bin/hw/init_citadel
 vendor/bin/hw/samsung.hardware.media.c2@1.2-service
-vendor/bin/hw/vendor.dolby.media.c2@1.0-service
+vendor/bin/hw/usboffmode
+vendor/bin/hw/vendor.dolby.media.c2-default-service
 vendor/bin/hw/vendor.google.audiometricext@1.0-service-vendor
 vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service
 vendor/bin/hw/vendor.google.google_battery-service
@@ -60,6 +63,7 @@ vendor/bin/insmod.sh
 vendor/bin/pixelstats-vendor
 vendor/bin/predump_touch.sh
 vendor/bin/sscoredump
+vendor/bin/storage_init.sh
 vendor/bin/touch_gti_ical
 vendor/bin/trusty_metricsd
 vendor/bin/twoshay
@@ -133,6 +137,7 @@ vendor/etc/display_golden_boe-ts110f5mlg0-rt4_cal0.pb
 vendor/etc/display_golden_csot-ppa957db2d-rt4_cal0.pb
 vendor/etc/display_settings.xml
 vendor/etc/displayconfig/display_id_4619827677550801152.xml
+vendor/etc/edgetpu/custom_kernel.pbtxt
 vendor/etc/fstab.persist
 vendor/etc/init.common.cfg
 vendor/etc/init/Exynos_C2.rc
@@ -156,8 +161,10 @@ vendor/etc/init/aocd.rc
 vendor/etc/init/aocxd.rc
 vendor/etc/init/citadeld.rc
 vendor/etc/init/com.google.edgetpu.tachyon-service.rc
+vendor/etc/init/dump_power.rc
 vendor/etc/init/fingerprint-fpc42.rc
 vendor/etc/init/google.hardware.media.c2@1.0-service.rc
+vendor/etc/init/gpuflag.rc
 vendor/etc/init/hw/init.gs201.rc
 vendor/etc/init/hw/init.gs201.storage.rc
 vendor/etc/init/hw/init.gs201.usb.rc
@@ -172,8 +179,11 @@ vendor/etc/init/init.pixel-perf.rc
 vendor/etc/init/init.sscoredump.rc
 vendor/etc/init/init.storage.rc
 vendor/etc/init/init.touch.gti0.rc
+vendor/etc/init/init.touch.ical0.rc
 vendor/etc/init/init.touch.predump.rc
+vendor/etc/init/init.usboffmode.rc
 vendor/etc/init/init.usf.rc
+vendor/etc/init/init.watermark-scale-factor.rc
 vendor/etc/init/init_dauntless.rc
 vendor/etc/init/libg3a_gabc.rc
 vendor/etc/init/libg3a_gaf.rc
@@ -184,9 +194,10 @@ vendor/etc/init/qorvo.uwb-calib.rc
 vendor/etc/init/qorvo.uwb-service.rc
 vendor/etc/init/samsung.hardware.media.c2@1.2-service.rc
 vendor/etc/init/storage.gs201.rc
+vendor/etc/init/storage.init.rc
 vendor/etc/init/trusty_metricsd.rc
 vendor/etc/init/twoshay.rc
-vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc
+vendor/etc/init/vendor.dolby.media.c2-default-service.rc
 vendor/etc/init/vendor.google.audiometricext@1.0-service-vendor.rc
 vendor/etc/init/vendor.google.battery_mitigation-default.rc
 vendor/etc/init/vendor.google.edgetpu_vendor_service@1.0-service.rc
@@ -205,6 +216,7 @@ vendor/etc/media_codecs_dolby_c2.xml
 vendor/etc/media_codecs_performance.xml
 vendor/etc/media_codecs_performance_c2.xml
 vendor/etc/media_profiles_V1_0.xml
+vendor/etc/memory-limiter-config.xml
 vendor/etc/mixer_paths.xml
 vendor/etc/modem/Pixel_Default_metrics.xml
 vendor/etc/modem/Pixel_stability.cfg
@@ -216,7 +228,7 @@ vendor/etc/modem/default.nprf
 vendor/etc/modem/default_metrics.xml
 vendor/etc/modem/logging.conf
 vendor/etc/modem_stat.conf
-vendor/etc/permissions/android.hardware.strongbox_keystore.xml
+vendor/etc/permissions/android.hardware.strongbox_keystore_v3.xml
 vendor/etc/permissions/com.google.android.camera.experimental2022.xml
 vendor/etc/permissions/com.google.android.hardwareinfo.xml
 vendor/etc/permissions/vendor.android.hardware.camera.preview-dis.xml
@@ -236,6 +248,7 @@ vendor/etc/task_profiles.json
 vendor/etc/thermal_info_config.json
 vendor/etc/thermal_info_config_charge.json
 vendor/etc/touchflow.pb
+vendor/etc/tracing_descriptors.gz
 vendor/etc/twoshay_config.json
 vendor/etc/ueventd.rc
 vendor/etc/uwb/UWB-calibration-am.conf
@@ -293,12 +306,12 @@ vendor/etc/uwb/UWB-calibration.conf
 vendor/etc/uwb/calib_paths
 vendor/etc/uwb/libuwb-uci.conf
 vendor/etc/vintf/manifest/android.hardware.authsecret-service.citadel.xml
-vendor/etc/vintf/manifest/android.hardware.camera.provider@2.7-service-google-apex.xml
 vendor/etc/vintf/manifest/android.hardware.contexthub-service.generic.xml
 vendor/etc/vintf/manifest/android.hardware.dumpstate.3-service.xml
 vendor/etc/vintf/manifest/android.hardware.neuralnetworks@service-darwinn-aidl.xml
 vendor/etc/vintf/manifest/android.hardware.oemlock-service.citadel.xml
-vendor/etc/vintf/manifest/android.hardware.security.keymint-service.citadel.xml
+vendor/etc/vintf/manifest/android.hardware.security.keymint-service-v3.citadel.xml
+vendor/etc/vintf/manifest/android.hardware.security.sharesecret-service.citadel.xml
 vendor/etc/vintf/manifest/android.hardware.weaver-service.citadel.xml
 vendor/etc/vintf/manifest/fingerprint-fpc42.xml
 vendor/etc/vintf/manifest/hwc3-default.xml
@@ -311,7 +324,7 @@ vendor/etc/vintf/manifest/manifest_radioext.xml
 vendor/etc/vintf/manifest/memtrack.xml
 vendor/etc/vintf/manifest/pixel-display-default.xml
 vendor/etc/vintf/manifest/qorvo.uwb-service.xml
-vendor/etc/vintf/manifest/vendor.dolby.media.c2@1.0-service.xml
+vendor/etc/vintf/manifest/vendor.dolby.media.c2-default-service.xml
 vendor/etc/vintf/manifest/vendor.google.battery_mitigation-default.xml
 vendor/etc/vintf/manifest/vendor.google.edgetpu_vendor_service@1.0-service.xml
 vendor/etc/vintf/manifest/vendor.google.google_battery-default.xml
@@ -358,10 +371,11 @@ vendor/firmware/gxp_fw_core1
 vendor/firmware/gxp_fw_core2
 vendor/firmware/gxp_fw_core3
 vendor/firmware/logstrs.bin
-vendor/firmware/mali_csffw-r52p0.bin
-vendor/firmware/mali_csffw-r53p0.bin
+vendor/firmware/mali_csffw-legacy-r56p0.bin
 vendor/firmware/mali_csffw-r54p0.bin
 vendor/firmware/mali_csffw-r54p1.bin
+vendor/firmware/mali_csffw-r54p2.bin
+vendor/firmware/mali_csffw-r54p3.bin
 vendor/firmware/mfc_fw.bin
 vendor/firmware/novatek_ts_fw.bin
 vendor/firmware/novatek_ts_fw_csot.bin
@@ -373,9 +387,10 @@ vendor/firmware/sarconfig.info
 vendor/firmware/syna/BTFW.hcd
 vendor/firmware/syna/BTFW_B.hcd
 vendor/framework/com.google.android.camera.experimental2022.jar
+vendor/lib/aconfig_gpu_flags_c_lib.so
 vendor/lib/aoc_aud_ext.so
 vendor/lib/aoc_audio_stereo_spatializer.so
-vendor/lib/aocx-V2-ndk.so
+vendor/lib/aocx-V3-ndk.so
 vendor/lib/arm.graphics-V1-ndk.so
 vendor/lib/audio_adapted_info_features.so
 vendor/lib/audio_amcs_ext.so
@@ -456,6 +471,8 @@ vendor/lib/vendor.google.battery_mitigation-V1-ndk.so
 vendor/lib/vendor.google.battery_mitigation.service_static.so
 vendor/lib/vendor.google.whitechapel.audio.audioext@4.0.so
 vendor/lib/vendor.google.whitechapel.audio.extension-V5-ndk.so
+vendor/lib64/aconfig_gpu_flags_c_lib.so
+vendor/lib64/aconfig_gsc_flags_c_lib.so
 vendor/lib64/android.hardware.authsecret-impl.nos.so
 vendor/lib64/android.hardware.oemlock-impl.nos.so
 vendor/lib64/android.hardware.power.stats-impl.gs-common.so
@@ -467,7 +484,7 @@ vendor/lib64/android.hardware.weaver2-impl.nos.so
 vendor/lib64/aoc_aconfig_flags_c_lib.so
 vendor/lib64/aoc_aud_ext.so
 vendor/lib64/aoc_audio_stereo_spatializer.so
-vendor/lib64/aocx-V2-ndk.so
+vendor/lib64/aocx-V3-ndk.so
 vendor/lib64/arm.graphics-V1-ndk.so
 vendor/lib64/audio_adapted_info_features.so
 vendor/lib64/audio_amcs_ext.so
@@ -489,7 +506,7 @@ vendor/lib64/com.google.edgetpu_vendor_service-V2-ndk.so;MODULE_SUFFIX=_vendor
 vendor/lib64/com.google.hardware.biometrics.parcelable.fingerprint.PressToAuthParcelable-V1-ndk.so
 vendor/lib64/com.google.hardware.biometrics.sidefps.fingerprint-ext-V1-ndk.so
 vendor/lib64/com.google.input-V2-ndk.so
-vendor/lib64/com.google.input-V6-ndk.so
+vendor/lib64/com.google.input-V8-ndk.so
 vendor/lib64/egl/libGLES_mali.so
 vendor/lib64/fake_gxp_telemetry_reader.so
 vendor/lib64/fpc42_suez.so
@@ -537,9 +554,7 @@ vendor/lib64/libcast_auth.so
 vendor/lib64/libcast_auth_aidl-cpp.so
 vendor/lib64/libcodec2_soft_ddpdec.so
 vendor/lib64/libcodec2_store_dolby.so
-vendor/lib64/libdapparamstorage.so
 vendor/lib64/libdarwinn_hal.so
-vendor/lib64/libdeccfg.so
 vendor/lib64/libdeeptouch.so
 vendor/lib64/libdisplaycolor.so
 vendor/lib64/libdrmresource.so
@@ -559,6 +574,7 @@ vendor/lib64/libgc2_log.so
 vendor/lib64/libgc2_store.so
 vendor/lib64/libgc2_utils.so
 vendor/lib64/libgpudataproducer.so
+vendor/lib64/libgpuflag_aconfig_rust.dylib.so
 vendor/lib64/libgril_oem-google.so
 vendor/lib64/libgxp.so
 vendor/lib64/libhwjpeg.so
@@ -569,6 +585,7 @@ vendor/lib64/libmetrics_logger.so
 vendor/lib64/libnos_citadeld_proxy.so
 vendor/lib64/liboemcrypto.so
 vendor/lib64/libpixelstats.so
+vendor/lib64/libpixelstatsflags.so
 vendor/lib64/libqorvo_uwb_params_nfcc.so
 vendor/lib64/libsensorsuez.so
 vendor/lib64/libsit_oem.so
@@ -585,10 +602,12 @@ vendor/lib64/modem_android_property_manager.so
 vendor/lib64/modem_android_property_manager_impl.so
 vendor/lib64/modem_log_constants.so
 vendor/lib64/modem_log_dumper.so
+vendor/lib64/pixelstats_flags_c_lib.so
 vendor/lib64/sensors.usf.so
 vendor/lib64/sideFpsSuez.so
 vendor/lib64/soundfx/liboffloadeffect.so
 vendor/lib64/soundfx/libspatialaudio.so
+vendor/lib64/thermal-budget-interface-ndk.so
 vendor/lib64/vendor-pixelatoms-cpp.so
 vendor/lib64/vendor.google.audiometricext@1.0.so
 vendor/lib64/vendor.google.battery_mitigation-V1-ndk.so
