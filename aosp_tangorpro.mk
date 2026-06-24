@@ -12,6 +12,6 @@ $(call inherit-product, device/google/tangorpro/device-tangorpro.mk)
 
 PRODUCT_NAME := aosp_tangorpro
 PRODUCT_DEVICE := tangorpro
-PRODUCT_MODEL := AOSP on Tangorpro
-PRODUCT_BRAND := Android
+PRODUCT_MODEL := Pixel Tablet
+PRODUCT_BRAND := google
 PRODUCT_MANUFACTURER := Google
