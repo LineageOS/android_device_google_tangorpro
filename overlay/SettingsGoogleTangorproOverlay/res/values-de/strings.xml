@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">Ton</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">Lautstärke</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">Du kannst den Startbildschirm aufrufen, indem du schnell von unten nach oben wischst. Wenn du auf die Taskleiste zugreifen möchtest, wische langsam von unten nach oben. Um zwischen Apps zu wechseln, wische vom unteren Displayrand nach oben, halte das Display gedrückt und lass dann los. Wenn du zurückgehen möchtest, wische vom linken oder vom rechten Rand nach innen.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">Ton</string>
 </resources>

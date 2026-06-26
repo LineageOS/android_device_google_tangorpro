@@ -4,15 +4,15 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">Bunyi</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">Kelantangan</string>
 
     <!-- Sound: Other sounds: Title for the option enabling charging sounds and vibration. [CHAR LIMIT=50] -->
-    <string name="charging_sounds_title">Bunyi apabila mengecas</string>
+    <string name="charging_sounds_title">Bunyi mengecas</string>
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">Untuk mengakses laman utama, leret dari bawah ke atas dengan pantas. Untuk mengakses Bar Tugas, leret dari bawah ke atas dengan perlahan. Untuk beralih apl, leret dari bawah ke atas, tahan dan lepaskan. Untuk kembali, leret dari sisi kiri atau kanan.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">Bunyi</string>
 </resources>

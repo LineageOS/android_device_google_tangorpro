@@ -115,7 +115,7 @@
 
     <!-- Message shown in dialog when user is almost at the limit where they will be
     locked out and may have to enter an alternate username/password to unlock the phone -->
-    <string name="kg_failed_attempts_almost_at_login">E ke vizatuar gabimisht motivin tënd të shkyçjes %1$d herë. Pas %2$d tentativave të tjera të pasuksesshme do të të kërkohet ta shkyçësh tabletin duke përdorur një llogari mail-i.\n\n Provo sërish për %3$d sekonda.</string>
+    <string name="kg_failed_attempts_almost_at_login">Ke vizatuar %1$d herë pa sukses motivin tënd. Pas %2$d tentativave të tjera të pasuksesshme, do të të duhet ta shkyçësh tabletin duke përdorur një llogari email-i.\n\n Provo sërish për %3$d sekonda.</string>
 
     <!-- Title of the dialog shown when the settings is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
     <string name="app_streaming_blocked_title_for_settings_dialog">Cilësimet e tabletit nuk ofrohen</string>

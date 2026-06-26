@@ -14,7 +14,7 @@
     <string name="screensaver_settings_summary_postured_and_charging">똑바로 세워져 있고 충전 중일 때</string>
 
     <!-- Display settings screen, summary for screen saver options, screen saver is turned off [CHAR LIMIT=20] -->
-    <string name="screensaver_settings_summary_off">유휴 상태일 때 좋아하는 사진, 예술작품, 시계 등을 표시</string>
+    <string name="screensaver_settings_summary_off">유휴 상태일 때 좋아하는 사진, 예술작품, 시계 등 표시</string>
 
     <!-- Communal Settings -->
     <!-- Title of the communal settings under Settings > Communal [CHAR LIMIT=30] -->

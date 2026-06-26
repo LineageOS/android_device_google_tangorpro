@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">Дуу</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">Дууны түвшин</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">Нүүр лүү очихын тулд доод талаас дээш хурдан шударна уу. Ажлын хэсэгт хандахын тулд доод талаас дээш удаан шударна уу. Аппуудыг сэлгэхийн тулд доод талаас дээш шударч, удаан дараад суллана уу. Буцахын тулд зүүн эсвэл баруун ирмэгээс шударна уу.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">Дуу</string>
 </resources>

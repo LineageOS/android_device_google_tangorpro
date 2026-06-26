@@ -108,14 +108,14 @@
     <string name="default_audio_route_name">Tablet</string>
 
     <!-- Message shown when user is almost at the limit of password attempts where the device will be wiped. -->
-    <string name="kg_failed_attempts_almost_at_wipe">Po raz %1$d próbowałeś nieprawidłowo odblokować tablet. Po kolejnych %2$d nieudanych próbach tablet zostanie zresetowany do ustawień fabrycznych, a wszystkie dane użytkownika zostaną utracone.</string>
+    <string name="kg_failed_attempts_almost_at_wipe">Po raz %1$d próbowano nieprawidłowo odblokować tablet. Po kolejnych %2$d nieudanych próbach tablet zostanie zresetowany do ustawień fabrycznych, a wszystkie dane użytkownika zostaną utracone.</string>
 
     <!-- Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
     <string name="kg_failed_attempts_now_wiping">Po raz %d próbowałeś nieprawidłowo odblokować tablet. Tablet zostanie teraz zresetowany do ustawień fabrycznych.</string>
 
     <!-- Message shown in dialog when user is almost at the limit where they will be
     locked out and may have to enter an alternate username/password to unlock the phone -->
-    <string name="kg_failed_attempts_almost_at_login">Po raz %1$d nieprawidłowo narysowałeś wzór odblokowania. Po kolejnych %2$d nieudanych próbach konieczne będzie odblokowanie tabletu przy użyciu danych logowania na konto Google.\n\n Spróbuj ponownie za %3$d s.</string>
+    <string name="kg_failed_attempts_almost_at_login">Po raz %1$d nieprawidłowo narysowano wzór odblokowania. Po kolejnych %2$d nieudanych próbach konieczne będzie odblokowanie tabletu przy użyciu danych logowania na konto Google.\n\n Spróbuj ponownie za %3$d s.</string>
 
     <!-- Title of the dialog shown when the settings is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
     <string name="app_streaming_blocked_title_for_settings_dialog">Ustawienia tabletu są niedostępne</string>

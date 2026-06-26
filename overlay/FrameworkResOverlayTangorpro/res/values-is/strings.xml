@@ -88,7 +88,7 @@
 
     <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit
          where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
-    <string name="lockscreen_failed_attempts_almost_glogin">Þú hefur teiknað opnunarmynstrið rangt %1$d sinnum. Eftir %2$d árangurslausar tilraunir í viðbót verður beðið um að þú notir Google innskráningu til að opna spjaldtölvuna.\n\n Prófaðu aftur eftir %3$d sekúndur.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">Þú hefur teiknað opnunarmynstrið rangt %1$d sinnum. Eftir %2$d árangurslausar tilraunir í viðbót verður beðið um að þú notir Google-innskráningu til að opna spjaldtölvuna.\n\n Prófaðu aftur eftir %3$d sekúndur.</string>
 
     <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit
          where the device will be wiped. -->
@@ -115,7 +115,7 @@
 
     <!-- Message shown in dialog when user is almost at the limit where they will be
     locked out and may have to enter an alternate username/password to unlock the phone -->
-    <string name="kg_failed_attempts_almost_at_login">Þú hefur teiknað rangt opnunarmynstur %1$d sinnum. Eftir %2$d árangurslausar tilraunir í viðbót verður þú beðin(n) um að opna spjaldtölvuna með tölvupóstreikningi.\n\n Reyndu aftur eftir %3$d sekúndur.</string>
+    <string name="kg_failed_attempts_almost_at_login">Þú hefur teiknað rangt opnunarmynstur %1$d sinnum. Eftir %2$d árangurslausar tilraunir í viðbót verðurðu beðin(n) um að opna spjaldtölvuna með tölvupóstreikningi.\n\n Reyndu aftur eftir %3$d sekúndur.</string>
 
     <!-- Title of the dialog shown when the settings is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
     <string name="app_streaming_blocked_title_for_settings_dialog">Spjaldtölvustillingar ekki tiltækar</string>

@@ -14,7 +14,7 @@
     <string name="screensaver_settings_summary_postured_and_charging">وقتی صاف و درحال شارژ است</string>
 
     <!-- Display settings screen, summary for screen saver options, screen saver is turned off [CHAR LIMIT=20] -->
-    <string name="screensaver_settings_summary_off">عکس‌های دلخواه، آثار هنری، ساعت، و غیره در حالت آزاد نشان داده می‌شود</string>
+    <string name="screensaver_settings_summary_off">عکس‌های دلخواه، آثار هنری، ساعت، و غیره در زمان بی‌کاری نشان داده می‌شود</string>
 
     <!-- Communal Settings -->
     <!-- Title of the communal settings under Settings > Communal [CHAR LIMIT=30] -->

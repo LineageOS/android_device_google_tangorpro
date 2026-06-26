@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">Garsas</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">Garsumas</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">Jei norite eiti į pagrindinį puslapį, greitai perbraukite iš apačios į viršų. Jei norite pasiekti užduočių juostą, lėtai perbraukite iš apačios į viršų. Jei norite perjungti programas, perbraukite iš apačios į viršų, palaikykite, tada atleiskite. Jei norite grįžti, perbraukite nuo kairiojo arba dešiniojo krašto.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">Garsas</string>
 </resources>

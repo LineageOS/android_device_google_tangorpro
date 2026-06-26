@@ -121,7 +121,7 @@
     <string name="app_streaming_blocked_title_for_settings_dialog">ಟ್ಯಾಬ್ಲೆಟ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಲಭ್ಯವಿಲ್ಲ</string>
 
     <!-- Message shown when an app is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
-    <string name="app_streaming_blocked_message">ಈ ಸಮಯದಲ್ಲಿ ನಿಮ್ಮ %1$s ನಲ್ಲಿ ಇದನ್ನು ಪ್ರವೇಶಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಅದರ ಬದಲು ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್‌ನಲ್ಲಿ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="app_streaming_blocked_message">ಈ ಸಮಯದಲ್ಲಿ ನಿಮ್ಮ %1$s ನಲ್ಲಿ ಇದನ್ನು ಆ್ಯಕ್ಸೆಸ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ. ಅದರ ಬದಲು ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್‌ನಲ್ಲಿ ಪ್ರಯತ್ನಿಸಿ.</string>
 
     <!-- Message shown when a runtime permission request is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
     <string name="app_streaming_blocked_message_for_permission_request">ಈ ಆ್ಯಪ್ ಹೆಚ್ಚುವರಿ ಅನುಮತಿಗಳಿಗಾಗಿ ವಿನಂತಿಸುತ್ತಿದೆ, ಆದರೆ ಸ್ಟ್ರೀಮಿಂಗ್ ಸೆಶನ್‌ನಲ್ಲಿ ಅನುಮತಿಗಳನ್ನು ನೀಡಲಾಗುವುದಿಲ್ಲ. ಮೊದಲು ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್‌ನಲ್ಲಿ ಅನುಮತಿ ನೀಡಿ.</string>
@@ -137,5 +137,5 @@
 
     <!-- Strings for VirtualDeviceManager -->
     <!-- Error message indicating the camera cannot be accessed when running on a virtual device. [CHAR LIMIT=NONE] -->
-    <string name="vdm_camera_access_denied">ನಿಮ್ಮ %1$s ಮೂಲಕ ಟ್ಯಾಬ್ಲೆಟ್‌ನ ಕ್ಯಾಮರಾವನ್ನು ಪ್ರವೇಶಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
+    <string name="vdm_camera_access_denied">ನಿಮ್ಮ %1$s ಮೂಲಕ ಟ್ಯಾಬ್ಲೆಟ್‌ನ ಕ್ಯಾಮರಾವನ್ನು ಆ್ಯಕ್ಸೆಸ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
 </resources>

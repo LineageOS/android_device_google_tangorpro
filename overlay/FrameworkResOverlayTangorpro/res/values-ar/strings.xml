@@ -30,7 +30,7 @@
     <string name="permdesc_broadcastSticky">للسماح للتطبيق بإرسال مجموعات بث مستمرة، والتي تظل بعد انتهاء البث. قد يؤدي الاستخدام بكثرة إلى حدوث بطء أو عدم استقرار في الجهاز اللوحي من خلال التسبب في استخدام الجهاز اللوحي لمساحة كبيرة للغاية من الذاكرة.</string>
 
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_readContacts">يسمح هذا الإذن للتطبيق بقراءة بيانات حول جهات الاتصال المخزّنة على جهازك اللوحي. ويمكن للتطبيقات أيضًا الوصول إلى الحسابات التي تم إنشاء جهات الاتصال من خلالها على جهازك اللوحي. ويمكن أن يشمل ذلك الحسابات التي أنشأتها التطبيقات التي ثبتّها. ويتيح هذا الإذن للتطبيقات حفظ بيانات جهة الاتصال، وقد تشارك التطبيقات الضارة بيانات جهة الاتصال بدون علمك.</string>
+    <string name="permdesc_readContacts">يسمح هذا الإذن للتطبيق بقراءة بيانات حول جهات الاتصال المخزّنة على جهازك اللوحي. ويمكن للتطبيق أيضًا الوصول إلى الحسابات التي تم إنشاء جهات الاتصال من خلالها على جهازك اللوحي. ويمكن أن يشمل ذلك الحسابات التي أنشأتها التطبيقات التي ثبتّها. ويتيح هذا الإذن للتطبيق حفظ بيانات جهة الاتصال، وقد تشارك التطبيقات الضارة بيانات جهة الاتصال بدون علمك.</string>
 
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permdesc_writeContacts">يسمح هذا الإذن للتطبيق بتعديل البيانات حول جهات الاتصال المخزّنة على جهازك اللوحي. ويسمح هذا الإذن للتطبيقات بحذف بيانات جهات الاتصال.</string>
@@ -101,7 +101,7 @@
     <!-- Summary for a warning message about the interaction model changes after allowing an accessibility
          service to put the device into explore by touch mode, displayed as a dialog message when
          the user selects to enables the service. (default). [CHAR LIMIT=NONE] -->
-    <string name="enable_explore_by_touch_warning_message">‏يريد %1$s تفعيل ميزة Explore by Touch. عند تفعيل ميزة Explore by Touch، سيكون بإمكانك سماع أو مشاهدة أوصاف لما تحت إصبعك أو إجراء إيماءات للتفاعل مع الجهاز اللوحي.</string>
+    <string name="enable_explore_by_touch_warning_message">تريد خدمة %1$s تفعيل ميزة \"الاستكشاف باللمس\". عند تفعيلها، سيكون بإمكانك سماع أو مشاهدة أوصاف لما تحت إصبعك أو إجراء إيماءات للتفاعل مع الجهاز اللوحي.</string>
 
     <!-- Name of the default audio route when nothing is connected to
          a headphone or other wired audio output jack. [CHAR LIMIT=50] -->

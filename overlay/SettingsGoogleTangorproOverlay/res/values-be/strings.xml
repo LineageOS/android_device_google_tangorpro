@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">Гук</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">Гучнасць</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">Каб перайсці на галоўны экран, хутка правядзіце па экране знізу ўверх. Каб адкрыць панэль задач, павольна правядзіце знізу ўверх. Каб пераключыцца на іншую праграму, правядзіце па экране знізу ўверх, затрымайце палец і адпусціце. Каб вярнуцца назад, правядзіце пальцам па экране злева направа ці справа налева.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">Гук</string>
 </resources>

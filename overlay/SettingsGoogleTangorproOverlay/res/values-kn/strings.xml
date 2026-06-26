@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">ಧ್ವನಿ</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">ವಾಲ್ಯೂಮ್</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">ಹೋಮ್‌ಗೆ ಹೋಗಲು, ಕೆಳಗಿನಿಂದ ಮೇಲಕ್ಕೆ ತ್ವರಿತವಾಗಿ ಸ್ವೈಪ್ ಮಾಡಿ. ಟಾಸ್ಕ್‌ಬಾರ್ ಆ್ಯಕ್ಸೆಸ್ ಮಾಡಲು, ಕೆಳಗಿನಿಂದ ಮೇಲಕ್ಕೆ ನಿಧಾನವಾಗಿ ಸ್ವೈಪ್‌ ಮಾಡಿ. ಆ್ಯಪ್‌ಗಳನ್ನು ಬದಲಿಸಲು, ಕೆಳಗಿನಿಂದ ಮೇಲಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ, ಹಿಡಿದುಕೊಳ್ಳಿ, ನಂತರ ಬಿಟ್ಟುಬಿಡಿ. ಹಿಂದಕ್ಕೆ ಹೋಗಲು, ಎಡ ಅಥವಾ ಬಲ ತುದಿಯಿಂದ ಸ್ವೈಪ್ ಮಾಡಿ.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">ಧ್ವನಿ</string>
 </resources>

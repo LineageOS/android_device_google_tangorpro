@@ -27,11 +27,10 @@
     <bool name="config_dreamsActivatedOnPosturedByDefault">false</bool>
 
     <!-- ComponentNames of the dreams that we should hide -->
-    <string-array name="config_disabledDreamComponents">
+    <string-array name="config_disabledDreamComponents" translatable="false">
         <item>com.google.android.deskclock/com.android.deskclock.Screensaver</item>
         <item>com.android.dreams.basic/.Colors</item>
         <item>com.google.android.apps.photos/.daydream.PhotosDreamService</item>
-        <item>com.android.systemui/com.android.systemui.lowlightclock.LowLightClockDreamService</item>
     </string-array>
 
     <!-- The list of supported dream complications -->
@@ -53,6 +52,9 @@
 
     <!-- Whether there is to be a chosen Dock User who is the only user allowed to dream. -->
     <bool name="config_dreamsOnlyEnabledForDockUser">true</bool>
+
+    <!-- Whether to support restricting dreams to wireless charging. -->
+    <bool name="config_supportDreamWirelessChargingRestriction">false</bool>
 
     <!-- Whether dreams are disabled when ambient mode is suppressed. -->
     <bool name="config_dreamsDisabledByAmbientModeSuppressionConfig">true</bool>
@@ -80,7 +82,7 @@
 
          Note that doze dreams are not subject to the same start conditions as ordinary dreams.
          Doze dreams will run whenever the power manager is in a dozing state. -->
-    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+    <string name="config_dozeComponent" translatable="false">com.android.systemui/com.android.systemui.doze.DozeService</string>
 
     <!--  Maximum number of supported switchable users (excluding Guests & Demo users).
           Does not include profiles. See {@link UserManager#getMaxSwitchableUsers()} for details.

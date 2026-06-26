@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">صدا</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">میزان صدا</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">برای رفتن به صفحه اصلی، از پایین صفحه تند به‌بالا بکشید. برای دسترسی به «نوار وظیفه»، از پایین صفحه آرام به‌بالا بکشید. برای جابه‌جایی بین برنامه‌ها، از پایین صفحه تند به‌بالا بکشید، سپس نگه دارید و رها کنید. برای برگشت، انگشتتان را از لبه سمت راست یا چپ تند بکشید.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">صدا</string>
 </resources>

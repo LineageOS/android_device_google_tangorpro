@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">So</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">Volum</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">Per anar a la pàgina d\'inici, llisca cap amunt ràpidament des de la part inferior. Per accedir a la Barra de tasques, llisca cap amunt lentament des de la part inferior. Per canviar d\'aplicació, llisca cap amunt des de la part inferior, mantén premut i deixa anar. Per tornar enrere, llisca des de la vora esquerra o dreta.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">So</string>
 </resources>
