@@ -16,6 +16,6 @@
 /vendor/bin/hw/android\.hardware\.bluetooth@1\.1-service\.synabtlinux u:object_r:hal_bluetooth_synabtlinux_exec:s0
 /vendor/bin/hw/android\.hardware\.drm-service\.castkey u:object_r:hal_drm_cast_exec:s0
 /vendor/bin/hw/android\.hardware\.lights-service\.tangorpro u:object_r:hal_light_default_exec:s0
-/vendor/bin/hw/vendor\.dolby\.media\.c2@1\.0-service u:object_r:mediacodec_exec:s0
+/vendor/bin/hw/vendor\.dolby\.media\.c2-default-service u:object_r:mediacodec_exec:s0
 /vendor/bin/predump_touch\.sh u:object_r:predump_touch_exec:s0
 /vendor/bin/touch_gti_ical u:object_r:gti_ical_exec:s0
