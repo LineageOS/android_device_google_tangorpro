@@ -124,7 +124,7 @@
     <string name="app_streaming_blocked_message">目前无法在您的%1$s上访问此内容。您可以尝试在平板电脑上访问。</string>
 
     <!-- Message shown when a runtime permission request is blocked from being streamed to a remote device. [CHAR LIMIT=NONE] -->
-    <string name="app_streaming_blocked_message_for_permission_request">此应用请求获得额外的权限，但在流式传输会话期间无法授予权限。请先在平板电脑上授予相应权限。</string>
+    <string name="app_streaming_blocked_message_for_permission_request">此应用请求获得额外的权限，但在串流会话期间无法授予权限。请先在平板电脑上授予相应权限。</string>
 
     <!-- Message shown when an app being streamed to another device requests authentication such as via the biometrics API, and the user needs to complete the on their device. [CHAR LIMIT=NONE] -->
     <string name="app_streaming_blocked_message_for_fingerprint_dialog">此应用要求进行额外的安全性验证，您可以尝试在平板电脑上访问。</string>

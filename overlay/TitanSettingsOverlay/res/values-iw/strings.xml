@@ -14,7 +14,7 @@
     <string name="screensaver_settings_summary_postured_and_charging">כשהמכשיר נטען במצב אנכי</string>
 
     <!-- Display settings screen, summary for screen saver options, screen saver is turned off [CHAR LIMIT=20] -->
-    <string name="screensaver_settings_summary_off">כשהמכשיר לא פעיל יוצגו תמונות אהובות, יצירות אומנות, שעונים ועוד</string>
+    <string name="screensaver_settings_summary_off">כשהמכשיר לא פעיל יוצגו תמונות שאהבת, יצירות אומנות, שעונים ועוד</string>
 
     <!-- Communal Settings -->
     <!-- Title of the communal settings under Settings > Communal [CHAR LIMIT=30] -->

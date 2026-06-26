@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">સાઉન્ડ</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">વૉલ્યૂમ</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">હોમ પર જવા માટે, સૌથી નીચેથી ઉપરની તરફ ઝડપથી સ્વાઇપ કરો. ટાસ્કબાર ઍક્સેસ કરવા માટે, સૌથી નીચેથી ઉપરની તરફ ધીમેથી સ્વાઇપ કરો. ઍપ સ્વિચ કરવા માટે, સૌથી નીચેથી ઉપરની તરફ સ્વાઇપ કરો, દબાવી રાખો અને પછી છોડી દો. પાછા ફરવા માટે, ડાબી કે જમણી કિનારીથી સ્વાઇપ કરો.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">સાઉન્ડ</string>
 </resources>

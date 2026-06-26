@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">సౌండ్</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">వాల్యూమ్</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">మొదటి స్క్రీన్‌కు వెళ్లడానికి, స్క్రీన్ దిగువ భాగం నుండి వేగంగా పైకి స్వయిప్ చేయండి. టాస్క్‌బార్‌ను యాక్సెస్ చేయడానికి, స్క్రీన్ దిగువ భాగం నుండి నెమ్మదిగా పైకి స్వయిప్ చేయండి. యాప్‌ల మధ్యన మారడానికి, స్క్రీన్ దిగువ భాగం నుండి పైకి స్వయిప్ చేసి, పట్టుకొని, ఆ తర్వాత వదిలేయండి. వెనుకకు వెళ్లడానికి, ఎడమ లేదా కుడి వైపు అంచు నుండి స్వయిప్ చేయండి.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">సౌండ్</string>
 </resources>

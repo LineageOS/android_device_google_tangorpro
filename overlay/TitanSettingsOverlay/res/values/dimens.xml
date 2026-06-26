@@ -7,4 +7,6 @@
     <!-- Dimensions for Dream settings cards -->
     <dimen name="dream_item_min_column_width">210dp</dimen>
     <dimen name="dream_preference_card_padding">20dp</dimen>
+    <dimen name="dream_preference_card_fixed_space_around">10dp</dimen>
+    <dimen name="dream_preference_card_space_compensation">-10dp</dimen>
 </resources>

@@ -14,7 +14,7 @@
     <string name="screensaver_settings_summary_postured_and_charging">أثناء الشحن في وضع عمودي</string>
 
     <!-- Display settings screen, summary for screen saver options, screen saver is turned off [CHAR LIMIT=20] -->
-    <string name="screensaver_settings_summary_off">تعرض تصاميم الغرافيك والساعات والصور المفضّلة لديك والمزيد عندما لا يتم استخدام الجهاز لفترة قصيرة</string>
+    <string name="screensaver_settings_summary_off">عرض الأعمال الفنية والساعات والصور المفضلة لديك والمزيد عند عدم استخدام الجهاز</string>
 
     <!-- Communal Settings -->
     <!-- Title of the communal settings under Settings > Communal [CHAR LIMIT=30] -->

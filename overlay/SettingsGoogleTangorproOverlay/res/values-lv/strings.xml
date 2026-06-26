@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">Skaņa</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">Skaļums</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">Lai pārietu uz sākuma ekrānu, no ekrāna apakšdaļas ātri velciet augšup. Lai piekļūtu uzdevumu joslai, no ekrāna apakšdaļas lēni velciet augšup. Lai pārslēgtu lietotnes, no ekrāna apakšdaļas velciet augšup, turiet un atlaidiet. Lai pārietu atpakaļ, velciet no ekrāna kreisās vai labās malas.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">Skaņa</string>
 </resources>

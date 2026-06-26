@@ -4,15 +4,15 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">Үн</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">Үн деңгээли</string>
 
     <!-- Sound: Other sounds: Title for the option enabling charging sounds and vibration. [CHAR LIMIT=50] -->
-    <string name="charging_sounds_title">Кубатталып баштаганда сигнал угулат</string>
+    <string name="charging_sounds_title">Кубатталып жатканда үн чыгат</string>
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">Башкы бетке өтүү үчүн экранды ылдыйдан өйдө тез сүрүңүз. Тапшырмалар тактасына өтүү үчүн экранды ылдыйдан өйдө жай сүрүңүз. Башка колдонмого которулуу үчүн экранды ылдыйдан өйдө сүрүп, бир аз коё бербей кармап туруңуз. Артка кайтуу үчүн экрандын оң же сол жагына сүрүңүз.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">Үн</string>
 </resources>

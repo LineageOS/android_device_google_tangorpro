@@ -4,12 +4,12 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">Звук</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">Громкость</string>
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">Чтобы перейти на главную страницу, быстро проведите вверх от нижнего края экрана. Чтобы открыть панель задач, медленно проведите вверх от нижнего края экрана. Чтобы переключиться между приложениями, проведите вверх от нижнего края экрана, задержите палец и отпустите. Чтобы вернуться назад, проведите от левого или правого края экрана.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">Звук</string>
 </resources>

@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">အသံ</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">အသံအတိုးအကျယ်</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">ပင်မစာမျက်နှာသို့ သွားရန် အောက်ခြေမှ အပေါ်သို့ အမြန်ပွတ်ဆွဲပါ။ Taskbar သုံးရန် အောက်ခြေမှ အပေါ်သို့ ဖြည်းဖြည်းပွတ်ဆွဲပါ။ အက်ပ်များအကြား ပြောင်းရန် ဖန်သားပြင်အောက်မှ အပေါ်သို့ပွတ်ဆွဲ၍ ဖိထားပြီးနောက် လွှတ်လိုက်ပါ။ ပြန်သွားရန် ဘယ်အစွန် (သို့) ညာအစွန်မှ ပွတ်ဆွဲပါ။</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">အသံ</string>
 </resources>

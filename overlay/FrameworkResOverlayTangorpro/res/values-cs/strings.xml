@@ -96,7 +96,7 @@
 
     <!-- For the unlock screen, informational message shown in dialog when user has exceeded the
         maximum attempts and the device will now be wiped -->
-    <string name="lockscreen_failed_attempts_now_wiping">Tablet jste se pokusili nesprávným způsobem odemknout %dkrát. V tabletu se teď obnoví výchozí tovární nastavení.</string>
+    <string name="lockscreen_failed_attempts_now_wiping">Tablet jste se pokusili nesprávným způsobem odemknout %dkrát. V tabletu se teď obnoví výchozí tovární nastavení.</string>
 
     <!-- Summary for a warning message about the interaction model changes after allowing an accessibility
          service to put the device into explore by touch mode, displayed as a dialog message when

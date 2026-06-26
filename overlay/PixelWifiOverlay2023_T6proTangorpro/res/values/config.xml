@@ -11,10 +11,4 @@
         <item>3</item>
         <item>8</item>
     </integer-array>
-
-    <!-- Boolean indicating whether to disable firmware roaming when the device goes into idle mode.
-         true: firmware roaming will be disabled when the device goes into idle mode and screen
-               is off, and then re-activated when the device exits idle mode or screen is on.
-         false: firmware roaming will not be affected. -->
-    <bool name="config_wifiDisableFirmwareRoamingInIdleMode">true</bool>
 </resources>

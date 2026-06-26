@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">Sunet</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">Volum</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">Pentru a accesa ecranul de pornire, glisează rapid în sus din partea de jos. Pentru a accesa Bara de activități, glisează lent în sus din partea de jos. Pentru a trece de la o aplicație la alta, glisează în sus din partea de jos, ține apăsat, apoi ridică degetul. Pentru a reveni, glisează dinspre marginea stângă sau dreaptă.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">Sunet</string>
 </resources>

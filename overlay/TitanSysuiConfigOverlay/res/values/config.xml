@@ -13,7 +13,7 @@
     <!-- Type of a sensor that provides a low-power estimate of the desired display
          brightness, suitable to listen to while the device is asleep (e.g. during
          always-on display) -->
-    <string name="doze_brightness_sensor_type">com.google.sensor.binned_brightness</string>
+    <string name="doze_brightness_sensor_type" translatable="false">com.google.sensor.binned_brightness</string>
 
     <!-- Doze: Table that translates sensor values from the doze_brightness_sensor_type sensor
                to brightness values in the integer scale [1, 255]; -1 means keeping the current
@@ -45,7 +45,7 @@
     <bool name="config_goToHomeFromOccludedApps">true</bool>
 
     <!-- Components to allow running fingerprint listening if their activity is occluding the lock screen. -->
-    <string-array name="config_fingerprint_listen_on_occluding_activity_packages">
+    <string-array name="config_fingerprint_listen_on_occluding_activity_packages" translatable="false">
         <item>com.google.android.apps.mediashell</item>
     </string-array>
 
@@ -53,7 +53,7 @@
     <bool name="config_communalServiceEnabled">true</bool>
 
     <!-- Component names of allowed communal widgets -->
-    <string-array name="config_communalWidgetAllowlist">
+    <string-array name="config_communalWidgetAllowlist" translatable="false">
         <item>com.google.android.deskclock/com.android.alarmclock.DigitalAppWidgetProvider</item>
         <item>com.google.android.googlequicksearchbox/com.google.android.apps.search.assistant.verticals.snapshot.widgets.weather.WeatherWidget_Receiver</item>
         <item>com.google.android.apps.chromecast.app/com.google.android.apps.chromecast.app.appwidget.favorites.FavoritesWidgetReceiver</item>
@@ -61,17 +61,11 @@
         <item>com.google.android.googlequicksearchbox/com.google.android.apps.search.widgets.stocks.StocksWidgetReceiver</item>
     </string-array>
 
-    <!-- Component name of communal source service -->
-    <string name="config_communalSourceComponent">com.google.assistant.hubui/com.google.assistant.surfaces.dragonglass.opal.lockscreenservice.LockScreenService</string>
-
-    <!-- Class for the communal source connector to be used -->
-    <string name="config_communalSourceConnector">com.google.android.systemui.communal.projection.CommunalSourceImpl$Connector</string>
-
     <!-- Flag controlling whether visual query attention detection has been enabled. -->
     <bool name="config_enableVisualQueryAttentionDetection">true</bool>
 
     <!-- The dream component used when the device is low light environment. -->
-    <string name="config_lowLightDreamComponent">com.android.systemui/com.google.android.systemui.lowlightclock.LowLightClockDreamService</string>
+    <string name="config_lowLightDreamComponent" translatable="false">com.android.systemui/com.android.systemui.lowlightclock.LowLightClockDreamService</string>
 
     <!-- Determines whether low light should be allowed pre-unlock -->
     <bool name="config_allowLowLightBehaviorWhenLocked">true</bool>
@@ -85,7 +79,4 @@
     <!-- Will display the bouncer on one side of the display, and the current user icon and
          user switcher on the other side -->
     <bool name="config_enableBouncerUserSwitcher">true</bool>
-
-    <!-- Will enable custom clocks on the lockscreen -->
-    <bool name="config_enableLockScreenCustomClocks">false</bool>
 </resources>

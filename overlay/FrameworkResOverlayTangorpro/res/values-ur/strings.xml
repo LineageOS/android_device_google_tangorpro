@@ -111,7 +111,7 @@
     <string name="kg_failed_attempts_almost_at_wipe">آپ نے ٹیبلیٹ کو غیر مقفل کرنے کیلئے %1$d بار غلط طریقے سے کوشش کی ہے۔ %2$d مزید ناکام کوششوں کے بعد، ٹیبلیٹ فیکٹری ڈیفالٹ پر دوبارہ ترتیب دے دیا جائے گا اور صارف کا سبھی ڈیٹا ضائع ہو جائے گا۔</string>
 
     <!-- Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
-    <string name="kg_failed_attempts_now_wiping">آپ نے ٹیبلٹ کو غیر مقفل کرنے کیلئے %d بار غلط طریقے سے کوشش کی ہے۔ اب ٹیبلیٹ فیکٹری ڈیفالٹ پر دوبارہ ترتیب دے دیا جائے گا۔</string>
+    <string name="kg_failed_attempts_now_wiping">آپ نے ٹیبلیٹ کو غیر مقفل کرنے کیلئے %d بار غلط طریقے سے کوشش کی ہے۔ اب ٹیبلیٹ فیکٹری ڈیفالٹ پر دوبارہ ترتیب دے دیا جائے گا۔</string>
 
     <!-- Message shown in dialog when user is almost at the limit where they will be
     locked out and may have to enter an alternate username/password to unlock the phone -->
