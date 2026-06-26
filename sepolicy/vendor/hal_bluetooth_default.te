@@ -15,6 +15,7 @@ vndbinder_use(hal_bluetooth_synabtlinux)
 
 allow hal_bluetooth_synabtlinux hal_power_stats_vendor_service:service_manager find;
 allow hal_bluetooth_synabtlinux hci_attach_dev:chr_file rw_file_perms;
-allow hal_bluetooth_synabtlinux self:{ bluetooth_socket socket } { bind create read write };
+allow hal_bluetooth_synabtlinux self:bluetooth_socket { bind create read write };
+allow hal_bluetooth_synabtlinux self:socket { bind create read write };
 allow hal_bluetooth_synabtlinux sscoredump_vendor_data_crashinfo_file:dir create_dir_perms;
 allow hal_bluetooth_synabtlinux sscoredump_vendor_data_crashinfo_file:file create_file_perms;
