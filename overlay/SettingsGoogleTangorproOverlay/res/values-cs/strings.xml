@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">Zvuk</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">Hlasitost</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">Pokud chcete přejít na plochu, rychle přejeďte zdola nahoru. Pokud chcete zobrazit panel aplikací, pomalu přejeďte zdola nahoru. Aplikace přepnete přejetím prstem zdola nahoru, podržením obrazovky a uvolněním prstu. Zpět se vrátíte přejetím prstem z levého nebo pravého okraje obrazovky.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">Zvuk</string>
 </resources>

@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">Tingulli</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">Volumi</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">Për të shkuar tek ekrani bazë, rrëshqit shpejt lart nga fundi. Për t\'u qasur te \"Shiriti i detyrave\", rrëshqit ngadalë lart nga fundi. Për të ndërruar aplikacionet, rrëshqit lart nga fundi, mbaje dhe lëshoje. Për të shkuar prapa, rrëshqit nga skaji i majtë ose i djathtë.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">Tingulli</string>
 </resources>

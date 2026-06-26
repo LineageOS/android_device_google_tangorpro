@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">الصوت</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">مستوى الصوت</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">للانتقال إلى الشاشة الرئيسية، مرِّر سريعًا من أسفل الشاشة لأعلاها. للوصول إلى شريط التطبيقات، مرِّر ببطء من أسفل الشاشة لأعلاها. للتبديل بين التطبيقات، مرِّر سريعًا من أسفل الشاشة إلى أعلاها واضغط مع الاستمرار ثم ارفع إصبعك عن الشاشة. للرجوع، مرِّر سريعًا من الحافة اليمنى أو اليسرى للشاشة.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">الصوت</string>
 </resources>

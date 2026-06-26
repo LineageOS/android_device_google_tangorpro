@@ -11,7 +11,7 @@
     <string name="screensaver_settings_summary_sleep">ચાર્જ થતું હોય ત્યારે</string>
 
     <!-- Summary for when screensaver is enabled, only while stationary and upright and charging [CHAR LIMIT=40] -->
-    <string name="screensaver_settings_summary_postured_and_charging">સીધું હોય અને ચાર્જ થાય ત્યારે</string>
+    <string name="screensaver_settings_summary_postured_and_charging">સીધું હોય અને ચાર્જ થતું હોય ત્યારે</string>
 
     <!-- Display settings screen, summary for screen saver options, screen saver is turned off [CHAR LIMIT=20] -->
     <string name="screensaver_settings_summary_off">નિષ્ક્રિય હોય ત્યારે મનપસંદ ફોટા, આર્ટવર્ક, ઘડિયાળો અને બીજું ઘણું બતાવો</string>

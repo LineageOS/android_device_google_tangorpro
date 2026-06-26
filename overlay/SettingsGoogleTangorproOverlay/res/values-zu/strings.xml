@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">Umsindo</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">Ivolumu</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">Ukuze uye ekhaya, swayiphela ngokushesha phezulu usuka phansi. Ukuze ufinyelele Ibha Yomsebenzi, swayiphela kancane phezulu kusukela phansi. Ukuze ushintshe ama-app, swayiphela phezulu kusukela ngaphansi, ubambe, bese uyakhulula. Ukuze ubuyele emuva, swayipha kusukela kunqenqema langakwesokunxele noma kwesokudla.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">Umsindo</string>
 </resources>

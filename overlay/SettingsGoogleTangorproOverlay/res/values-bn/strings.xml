@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">সাউন্ড</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">ভলিউম</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">হোমে যেতে, নিচ থেকে উপরের দিকে দ্রুত সোয়াইপ করুন। \'টাস্কবার\' অ্যাক্সেস করতে, নিচ থেকে উপরের দিকে ধীরে সোয়াইপ করুন। বিভিন্ন অ্যাপের মধ্যে একটি থেকে অন্যটিতে পাল্টাতে, নিচ থেকে উপরের দিকে সোয়াইপ করে ধরে রেখে ছেড়ে দিন। ফিরে যেতে, স্ক্রিনের বাঁদিক বা ডানদিকের প্রান্ত থেকে সোয়াইপ করুন।</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">সাউন্ড</string>
 </resources>

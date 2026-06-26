@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">เสียง</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">ระดับเสียง</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">หากต้องการไปที่หน้าแรก ให้ปัดขึ้นจากด้านล่างเร็วๆ หากต้องการเข้าถึงแถบงาน ให้ปัดขึ้นจากด้านล่างช้าๆ หากต้องการสลับแอป ให้ปัดขึ้นจากด้านล่างค้างไว้แล้วปล่อย หากต้องการย้อนกลับ ให้ปัดจากขอบด้านซ้ายหรือขวา</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">เสียง</string>
 </resources>

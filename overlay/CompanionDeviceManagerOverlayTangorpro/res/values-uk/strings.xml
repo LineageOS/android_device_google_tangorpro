@@ -5,5 +5,5 @@
 -->
 <resources>
     <!-- The type of the device for phone [CHAR LIMIT=30] -->
-    <string name="device_type">планшеті</string>
+    <string name="device_type">планшет</string>
 </resources>

@@ -45,7 +45,7 @@
     <string name="permdesc_writeCalendar">Приложение может добавлять, удалять или изменять мероприятия в календаре на планшете. Оно также может отправлять сообщения от имени владельцев календаря, а также изменять мероприятия без ведома владельца.</string>
 
     <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permlab_wakeLock">Отключение спящего режима</string>
+    <string name="permlab_wakeLock">предотвращение перехода планшета в спящий режим</string>
 
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permdesc_wakeLock">Приложение сможет запрещать перевод планшетного ПК в спящий режим.</string>

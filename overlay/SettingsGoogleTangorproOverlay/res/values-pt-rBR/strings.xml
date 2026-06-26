@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">Som</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">Volume</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">Para voltar à página inicial, deslize de baixo para cima rapidamente. Para abrir a Barra de tarefas, deslize de baixo para cima devagar. Para alternar entre apps, deslize de baixo para cima, mantenha a tela pressionada e depois solte. Para voltar, deslize da borda esquerda ou direita da tela.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">Som</string>
 </resources>

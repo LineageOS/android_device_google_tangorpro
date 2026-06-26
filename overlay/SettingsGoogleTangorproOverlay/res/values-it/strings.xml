@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">Audio</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">Volume</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">Per andare alla schermata Home, scorri rapidamente dal basso verso l\'alto. Per accedere alla barra delle app, scorri lentamente dal basso verso l\'alto. Per cambiare app, scorri dal basso verso l\'alto, tieni premuto e rilascia. Per tornare indietro, scorri dal bordo sinistro o destro.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">Audio</string>
 </resources>

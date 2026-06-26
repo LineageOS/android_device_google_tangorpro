@@ -21,22 +21,22 @@
     <string name="permdesc_readSms">Aplikazioak tabletan gordetako SMS mezu (testu-mezu) guztiak irakur ditzake.</string>
 
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_persistentActivity">Bere zati batzuk memoria modu iraunkorrean ezartzeko baimena ematen dio aplikazioari. Horrela, beste aplikazioek erabilgarri duten memoria murritz daiteke eta tableta motel daiteke.</string>
+    <string name="permdesc_persistentActivity">Bere zati batzuk memoria modu iraunkorrean ezartzeko baimena ematen die aplikazioei. Horrela, beste aplikazioek erabilgarri duten memoria murritz daiteke eta tableta motel daiteke.</string>
 
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_receiveBootCompleted">Sistema berrabiarazi bezain laster abiarazteko baimena ematen dio aplikazioari. Horrela, agian denbora gehiago beharko du tabletak abiarazteko, eta tabletaren funtzionamendu orokorra mantso daiteke, baimen hori duten aplikazioak beti abian egongo baitira.</string>
+    <string name="permdesc_receiveBootCompleted">Sistema berrabiarazi bezain laster abiarazteko baimena ematen die aplikazioei. Horrela, agian denbora gehiago beharko dute tabletak abiarazteko, eta tabletaren funtzionamendu orokorra mantso daiteke, baimen hori duten aplikazioak beti abian egongo baitira.</string>
 
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_broadcastSticky">Igorpen iraunkorrak emateko baimena ematen dio aplikazioari; horiek igorpena amaitu ondoren mantentzen dira. Gehiegi erabiliz gero, tableta motel edo ezegonkor ibiliko da, memoria gehiago erabiliko delako.</string>
+    <string name="permdesc_broadcastSticky">Igorpen iraunkorrak emateko baimena ematen die aplikazioei; igorpena amaitu ondoren mantentzen dira. Gehiegi erabiliz gero, tableta motel edo ezegonkor ibiliko da, memoria gehiago erabiliko delako.</string>
 
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_readContacts">Tabletan biltegiratutako kontaktuei buruzko datuak irakurtzeko baimena ematen dio aplikazioari. Kontaktuak sortu dituzten tabletako kontuak ere atzitu ahalko ditu aplikazioak. Horrek barnean hartuko ditu instalatutako aplikazioak sortutako kontuak, agian. Baimen horrekin, kontaktuen datuak gorde ditzake aplikazioak, eta baliteke asmo txarreko aplikazioek zuk jakin gabe partekatzea datu horiek.</string>
+    <string name="permdesc_readContacts">Tabletan biltegiratutako kontaktuei buruzko datuak irakurtzeko baimena ematen die aplikazioei. Kontaktuak sortu dituzten tabletako kontuak ere atzitu ahalko dituzte aplikazioek. Horrek barnean hartuko ditu instalatutako aplikazioak sortutako kontuak, agian. Baimen horrekin, kontaktuen datuak gorde ditzakete aplikazioek, eta baliteke asmo txarreko aplikazioek zuk jakin gabe partekatzea datu horiek.</string>
 
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_writeContacts">Tabletan gordetako kontaktuei buruzko datuak aldatzeko baimena ematen dio aplikazioari. Baimen horrekin, aplikazioak kontaktuen datuak ezaba ditzake.</string>
+    <string name="permdesc_writeContacts">Tabletan gordetako kontaktuei buruzko datuak aldatzeko baimena ematen die aplikazioei. Baimen horrekin, aplikazioak kontaktuen datuak ezaba ditzake.</string>
 
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_writeCallLog">Tabletaren deien erregistroa aldatzeko baimena ematen dio aplikazioari, sarrerako eta irteerako deiei buruzko datuak barne. Asmo txarreko aplikazioek deien erregistroa ezabatzeko edo aldatzeko erabil dezakete.</string>
+    <string name="permdesc_writeCallLog">Tabletaren deien erregistroa aldatzeko baimena ematen die aplikazioei, sarrerako eta irteerako deiei buruzko datuak barne. Asmo txarreko aplikazioek deien erregistroa ezabatzeko edo aldatzeko erabil dezakete.</string>
 
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permdesc_readCalendar">Aplikazioak tabletan biltegiratutako egutegiko gertaerak irakur ditzake eta egutegiko datuak parteka eta gorde ditzake.</string>
@@ -48,27 +48,27 @@
     <string name="permlab_wakeLock">eragotzi tableta inaktibo ezartzea</string>
 
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_wakeLock">Tableta inaktibo ezartzea galarazteko baimena ematen dio aplikazioari.</string>
+    <string name="permdesc_wakeLock">Tableta inaktibo ezartzea galarazteko baimena ematen die aplikazioei.</string>
 
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_transmitIr">Tabletaren infragorri-igorlea erabiltzeko baimena ematen dio aplikazioari.</string>
+    <string name="permdesc_transmitIr">Tabletaren infragorri-igorlea erabiltzeko baimena ematen die aplikazioei.</string>
 
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_setTimeZone">Tabletaren ordu-zona aldatzeko baimena ematen dio aplikazioari.</string>
+    <string name="permdesc_setTimeZone">Tabletaren ordu-zona aldatzeko baimena ematen die aplikazioei.</string>
 
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_getAccounts">Tabletak ezagutzen dituen kontuen zerrenda lortzeko baimena ematen dio aplikazioari. Instalatuta dauzkazun aplikazioek sortutako kontuak har daitezke barnean.</string>
+    <string name="permdesc_getAccounts">Tabletak ezagutzen dituen kontuen zerrenda lortzeko baimena ematen die aplikazioei. Instalatuta dauzkazun aplikazioek sortutako kontuak har daitezke barnean.</string>
 
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_changeWifiMulticastState">Wifi sarearen bidez gailu guztiei bidalitako paketeak jasotzeko baimena ematen dio aplikazioari multidifusio-helbideak erabilita, ez tableta soilik. Multidifusiokoa ez den moduak baino bateria gehiago erabiltzen du.</string>
+    <string name="permdesc_changeWifiMulticastState">Wifi sarearen bidez gailu guztiei bidalitako paketeak jasotzeko baimena ematen die aplikazioei multidifusio-helbideak erabilita, ez tableta soilik. Multidifusiokoa ez den moduak baino bateria gehiago erabiltzen du.</string>
 
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_bluetoothAdmin">Tokiko Bluetooth tableta konfiguratzeko eta urruneko gailuak detektatzeko eta haiekin parekatzeko baimena ematen dio aplikazioari.</string>
+    <string name="permdesc_bluetoothAdmin">Tokiko Bluetooth tableta konfiguratzeko eta urruneko gailuak detektatzeko eta haiekin parekatzeko baimena ematen die aplikazioei.</string>
 
-    <string name="permdesc_changeWimaxState">Tableta WiMAX sareetara konektatzeko edo haietatik deskonektatzeko baimena ematen dio aplikazioari.</string>
+    <string name="permdesc_changeWimaxState">Tableta WiMAX sareetara konektatzeko edo haietatik deskonektatzeko baimena ematen die aplikazioei.</string>
 
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_bluetooth">Tabletaren Bluetooth konfigurazioa ikusteko eta parekatutako gailuekin konexioak egiteko eta onartzeko baimena ematen dio aplikazioari.</string>
+    <string name="permdesc_bluetooth">Tabletaren Bluetooth konfigurazioa ikusteko eta parekatutako gailuekin konexioak egiteko eta onartzeko baimena ematen die aplikazioei.</string>
 
     <!-- Message shown on secondary screens to direct users to use their phone to finish biometric authorization [CHAR LIMIT=NONE] -->
     <string name="biometric_dialog_secondary_display_toast">Aurrera egiteko, egiaztatu zeu zarela tableta erabiltzen ari dena</string>

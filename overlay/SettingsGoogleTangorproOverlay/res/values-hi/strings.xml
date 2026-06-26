@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">आवाज़</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">वॉल्यूम</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">होम स्क्रीन पर जाने के लिए, स्क्रीन पर नीचे से ऊपर की ओर फटाफट स्वाइप करें. टास्कबार को ऐक्सेस करने के लिए, स्क्रीन पर नीचे से ऊपर की ओर धीरे से स्वाइप करें. एक से दूसरे ऐप्लिकेशन पर जाने के लिए, स्क्रीन के सबसे निचले हिस्से से ऊपर की ओर स्वाइप करें, स्क्रीन को दबाकर रखें, और फिर छोड़ दें. वापस जाने के लिए, स्क्रीन के बाएं या दाएं किनारे से स्वाइप करें.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">आवाज़</string>
 </resources>

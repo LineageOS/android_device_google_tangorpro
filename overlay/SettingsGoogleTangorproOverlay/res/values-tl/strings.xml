@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">Tunog</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">Volume</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">Para pumunta sa home, mag-swipe nang mabilis pataas mula sa ibaba. Para i-access ang Taskbar, mag-swipe nang mabagal pataas mula sa ibaba. Para magpalipat-lipat sa mga app, mag-swipe pataas mula sa ibaba, mag-hold, at bitawan. Para bumalik, mag-swipe mula sa kaliwa o kanang gilid.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">Tunog</string>
 </resources>

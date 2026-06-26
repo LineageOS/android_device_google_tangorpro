@@ -14,5 +14,5 @@
     <string name="network_dashboard_summary_no_mobile">WiFi</string>
 
     <!-- Label for non-carrier data usage in data usage screen [CHAR LIMIT=60] -->
-    <string name="non_carrier_data_usage">Prijenos podataka putem WiFi-ja</string>
+    <string name="non_carrier_data_usage">Prenos podataka putem WiFi-ja</string>
 </resources>

@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">ஒலி</string>
-
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">ஒலியளவு</string>
 
@@ -15,4 +12,7 @@
 
     <!-- Summary text for edge to edge navigation [CHAR LIMIT=NONE] -->
     <string name="edge_to_edge_navigation_summary">முகப்புக்குச் செல்ல, கீழிருந்து மேல்நோக்கி விரைவாக ஸ்வைப் செய்யவும். செயல் பட்டியை அணுக, கீழிருந்து மேல்நோக்கி மெதுவாக ஸ்வைப் செய்யவும். ஆப்ஸுக்கிடையே மாற, கீழிருந்து மேல்நோக்கி ஸ்வைப் செய்து, பிடித்து பிறகு விடுவிக்கவும். பின்செல்ல, திரையின் இடது/வலது விளிம்பிலிருந்து ஸ்வைப் செய்யவும்.</string>
+
+    <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
+    <string name="sound_settings">ஒலி</string>
 </resources>

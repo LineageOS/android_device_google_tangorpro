@@ -54,7 +54,7 @@
     <string name="permdesc_transmitIr">Овозможува апликацијата да го користи инфрацрвениот предавател на таблетот.</string>
 
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_setTimeZone">Дозволува апликацијата да ја промени часовната зона на таблетот.</string>
+    <string name="permdesc_setTimeZone">Дозволува апликацијата да ја промени временската зона на таблетот.</string>
 
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permdesc_getAccounts">Овозможува апликацијата да го добие списокот со сметки познати на таблетот. Ова може да опфати кои било сметки што ги создале апликациите што сте ги инсталирале.</string>
