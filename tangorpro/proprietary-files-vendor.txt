@@ -45,8 +45,6 @@ vendor/bin/hw/android.hardware.power.stats-service.pixel
 vendor/bin/hw/android.hardware.qorvo.uwb.service
 vendor/bin/hw/android.hardware.security.keymint-service.citadel
 vendor/bin/hw/android.hardware.thermal-service.pixel
-vendor/bin/hw/android.hardware.usb-service
-vendor/bin/hw/android.hardware.usb.gadget-service
 vendor/bin/hw/android.hardware.weaver-service.citadel
 vendor/bin/hw/battery_mitigation
 vendor/bin/hw/block_queue_depth
@@ -169,8 +167,6 @@ vendor/etc/init/android.hardware.power.stats-service.pixel.rc
 vendor/etc/init/android.hardware.rlsservice-service-google-apex.rc
 vendor/etc/init/android.hardware.security.keymint-service.citadel.rc
 vendor/etc/init/android.hardware.thermal-service.pixel.rc
-vendor/etc/init/android.hardware.usb-service.rc
-vendor/etc/init/android.hardware.usb.gadget-service.rc
 vendor/etc/init/android.hardware.weaver-service.citadel.rc
 vendor/etc/init/aocd.rc
 vendor/etc/init/aocxd.rc
@@ -332,8 +328,6 @@ vendor/etc/vintf/manifest/android.hardware.power.stats-service.pixel.xml
 vendor/etc/vintf/manifest/android.hardware.security.keymint-service-v3.citadel.xml
 vendor/etc/vintf/manifest/android.hardware.security.sharesecret-service.citadel.xml
 vendor/etc/vintf/manifest/android.hardware.thermal-service.pixel.xml
-vendor/etc/vintf/manifest/android.hardware.usb-service.xml
-vendor/etc/vintf/manifest/android.hardware.usb.gadget-service.xml
 vendor/etc/vintf/manifest/android.hardware.weaver-service.citadel.xml
 vendor/etc/vintf/manifest/fingerprint-fpc42.xml
 vendor/etc/vintf/manifest/hwc3-default.xml
@@ -609,10 +603,7 @@ vendor/lib64/libmetrics_logger.so
 vendor/lib64/libnos_citadeld_proxy.so
 vendor/lib64/liboemcrypto.so
 vendor/lib64/libperfmgr.so
-vendor/lib64/libpixelatoms_defs.so
 vendor/lib64/libpixelhealth.so
-vendor/lib64/libpixelstats.so
-vendor/lib64/libpixelstatsflags.so
 vendor/lib64/libqorvo_uwb_params_nfcc.so
 vendor/lib64/libsensorsuez.so
 vendor/lib64/libsit_oem.so
@@ -630,7 +621,6 @@ vendor/lib64/modem_android_property_manager_impl.so
 vendor/lib64/modem_log_constants.so
 vendor/lib64/modem_log_dumper.so
 vendor/lib64/pixel_stateresidency_provider_aidl_interface-ndk.so
-vendor/lib64/pixelatoms-cpp.so
 vendor/lib64/pixelstats_flags_c_lib.so
 vendor/lib64/sensors.usf.so
 vendor/lib64/sideFpsSuez.so
