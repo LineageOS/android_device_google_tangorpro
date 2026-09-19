@@ -35,6 +35,9 @@ ro.surface_flinger.resync_on_tx_timeout=750000000
 vendor.display.cabc.supported?=1
 vendor.display.dynamic_recomposition=1
 
+# USB
+vendor.usb.device=11210000.usb
+
 # UWB
 ro.vendor.uwb.calibration.calibrationpaths=/vendor/etc/uwb/calib_paths
 
