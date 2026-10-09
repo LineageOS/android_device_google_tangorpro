@@ -21,8 +21,6 @@ product/priv-app/PixelCameraServices/PixelCameraServices.apk;PRESIGNED
 product/etc/permissions/com.google.pixel.camera.connectivity.impl.xml
 product/etc/permissions/com.google.pixel.camera.services.cameraidremapper.impl.xml
 product/etc/permissions/com.google.pixel.camera.services.lyricconfigprovider.impl.xml
-product/etc/sysconfig/preinstalled-packages-camera-services-base.xml
-product/etc/sysconfig/preinstalled-packages-camera-services-common.xml
 
 # Cast
 product/etc/default-permissions/default-permissions_SmartDisplayPrebuilt.xml
@@ -76,15 +74,8 @@ product/etc/sysconfig/pixel_experience_2022.xml
 product/etc/sysconfig/pixel_experience_2022_midyear.xml
 product/etc/sysconfig/pixel_tablet-initial-package-stopped-states.xml
 product/etc/sysconfig/pixel_tablet_experience_2023.xml
-product/etc/sysconfig/preinstalled-packages-pixel-tablet-2023-and-newer.xml
-product/etc/sysconfig/preinstalled-packages-product-gs201-device.xml
-product/etc/sysconfig/preinstalled-packages-tangor-common.xml
-product/etc/sysconfig/preinstalled_packages_pixel_experience_2021_and_newer.xml
 
 # system_ext partition
-
-# AiAi
-system_ext/etc/sysconfig/preinstalled_packages_connectivity_thermal_power_manager.xml
 
 # Camera extensions
 system_ext/etc/permissions/com.google.android.camera.extensions.xml
@@ -120,7 +111,6 @@ system_ext/priv-app/HbmSVManager/HbmSVManager.apk
 
 # Hotword
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
-system_ext/etc/sysconfig/preinstalled-packages-hotword-google-fusion-pro.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
 # Permissions
@@ -128,7 +118,7 @@ system_ext/etc/permissions/privapp-permissions-google-se.xml:system_ext/etc/perm
 
 # Radio
 system_ext/etc/permissions/google-ril.xml
-system_ext/etc/sysconfig/preinstalled-packages-gril.xml
+system_ext/etc/permissions/privapp-permlist_com.google.android.grilservice.xml
 system_ext/framework/google-ril.jar
 system_ext/priv-app/ConnectivityThermalPowerManager/ConnectivityThermalPowerManager.apk
 system_ext/priv-app/grilservice/grilservice.apk;PRESIGNED

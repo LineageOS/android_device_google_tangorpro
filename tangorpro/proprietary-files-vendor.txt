@@ -62,6 +62,7 @@ vendor/bin/hw/vendor.dolby.media.c2-default-service
 vendor/bin/hw/vendor.google.audiometricext@1.0-service-vendor
 vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service
 vendor/bin/hw/vendor.google.google_battery-service
+vendor/bin/hw/vendor.google.plat_security-service
 vendor/bin/hw/vendor.google.radioext@1.0-service
 vendor/bin/init.camera.set-interrupts-ownership
 vendor/bin/init.display.sh
@@ -166,7 +167,6 @@ vendor/etc/init/android.hardware.neuralnetworks@service-darwinn-aidl.rc
 vendor/etc/init/android.hardware.oemlock-service.citadel.rc
 vendor/etc/init/android.hardware.power-service.pixel-libperfmgr.rc
 vendor/etc/init/android.hardware.power.stats-service.pixel.rc
-vendor/etc/init/android.hardware.rlsservice-service-google-apex.rc
 vendor/etc/init/android.hardware.security.keymint-service.citadel.rc
 vendor/etc/init/android.hardware.thermal-service.pixel.rc
 vendor/etc/init/android.hardware.usb-service.rc
@@ -195,6 +195,7 @@ vendor/etc/init/init.sscoredump.rc
 vendor/etc/init/init.storage.rc
 vendor/etc/init/init.touch.gti0.rc
 vendor/etc/init/init.touch.ical0.rc
+vendor/etc/init/init.touch.permissions.gti0.rc
 vendor/etc/init/init.touch.predump.rc
 vendor/etc/init/init.usboffmode.rc
 vendor/etc/init/init.usf.rc
@@ -218,6 +219,7 @@ vendor/etc/init/vendor.google.audiometricext@1.0-service-vendor.rc
 vendor/etc/init/vendor.google.battery_mitigation-default.rc
 vendor/etc/init/vendor.google.edgetpu_vendor_service@1.0-service.rc
 vendor/etc/init/vendor.google.google_battery-default.rc
+vendor/etc/init/vendor.google.plat_security-service.rc
 vendor/etc/init/vendor.google.radioext@1.0-service.rc
 vendor/etc/input_classifier_model.pb
 vendor/etc/led_golden_calibration_LUT_black_CG.txt
@@ -253,6 +255,7 @@ vendor/etc/powerhint.json
 vendor/etc/public.libraries.txt
 vendor/etc/seccomp_policy/codec2.vendor.base.policy
 vendor/etc/seccomp_policy/codec2.vendor.ext.policy
+vendor/etc/security/supplemental_security_patches.xml
 vendor/etc/sensors/device_cal_info
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/registry/append/motion_state.reg
@@ -350,6 +353,7 @@ vendor/etc/vintf/manifest/vendor.dolby.media.c2-default-service.xml
 vendor/etc/vintf/manifest/vendor.google.battery_mitigation-default.xml
 vendor/etc/vintf/manifest/vendor.google.edgetpu_vendor_service@1.0-service.xml
 vendor/etc/vintf/manifest/vendor.google.google_battery-default.xml
+vendor/etc/vintf/manifest/vendor.google.plat_security-service.xml
 vendor/etc/waves_config.ini
 vendor/etc/waves_preset.mps
 vendor/etc/wifi/coex_table.xml
@@ -479,6 +483,8 @@ vendor/lib/libhwjpeg.so
 vendor/lib/libion_google.so
 vendor/lib/libmahalcontroller.so
 vendor/lib/libmetrics_logger.so
+vendor/lib/libprotobuf-cpp-full-6.33.5-absl20260526.so
+vendor/lib/libprotobuf-cpp-lite-6.33.5-absl20260526.so
 vendor/lib/libqorvo_uwb_params_nfcc.so
 vendor/lib/libsensorsuez.so
 vendor/lib/libspeechenhancer.so
@@ -580,7 +586,6 @@ vendor/lib64/libcodec2_store_dolby.so
 vendor/lib64/libdarwinn_hal.so
 vendor/lib64/libdeeptouch.so
 vendor/lib64/libdisplaycolor.so
-vendor/lib64/libdisppower-pixel.so
 vendor/lib64/libdrmresource.so
 vendor/lib64/libdump.so
 vendor/lib64/libedgetpu_client.google.so
@@ -613,6 +618,8 @@ vendor/lib64/libpixelatoms_defs.so
 vendor/lib64/libpixelhealth.so
 vendor/lib64/libpixelstats.so
 vendor/lib64/libpixelstatsflags.so
+vendor/lib64/libprotobuf-cpp-full-6.33.5-absl20260526.so
+vendor/lib64/libprotobuf-cpp-lite-6.33.5-absl20260526.so
 vendor/lib64/libqorvo_uwb_params_nfcc.so
 vendor/lib64/libsensorsuez.so
 vendor/lib64/libsit_oem.so
@@ -643,6 +650,7 @@ vendor/lib64/vendor.google.battery_mitigation-V1-ndk.so
 vendor/lib64/vendor.google.battery_mitigation.service_static.so
 vendor/lib64/vendor.google.bluetooth_ext-V1-ndk.so
 vendor/lib64/vendor.google.google_battery-V5-ndk.so
+vendor/lib64/vendor.google.plat_security-V1-ndk.so
 vendor/lib64/vendor.google.whitechapel.audio.audioext@4.0.so
 vendor/lib64/vendor.google.whitechapel.audio.extension-V5-ndk.so
 vendor/lib64/vendor_chre_atoms_log.so
