@@ -5,5 +5,5 @@
 -->
 <resources>
     <!-- String label displayed on buttons that trigger the flow for creating supervised users. [CHAR LIMIT=35] -->
-    <string name="supervised_user_creation_label">Mwongeze mtoto</string>
+    <string name="supervised_user_creation_label">Ongeza mtoto</string>
 </resources>

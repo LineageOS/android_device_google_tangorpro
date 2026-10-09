@@ -8,7 +8,7 @@
     <string name="screensaver_settings_summary_dock_and_charging">जब डॉक पर रखा हो और चार्ज हो रहा हो</string>
 
     <!-- Display settings screen, summary fragment for screen saver options, activated when asleep and charging [CHAR LIMIT=40] -->
-    <string name="screensaver_settings_summary_sleep">डिवाइस जब चार्ज हो रहा हो</string>
+    <string name="screensaver_settings_summary_sleep">जब डिवाइस चार्ज हो रहा हो</string>
 
     <!-- Summary for when screensaver is enabled, only while stationary and upright and charging [CHAR LIMIT=40] -->
     <string name="screensaver_settings_summary_postured_and_charging">जब सीधे रखा हो और चार्ज हो रहा हो</string>

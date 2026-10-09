@@ -39,7 +39,7 @@
     <string name="permdesc_writeCallLog">ऐप को आने वाला कॉल (इनकमिंग) और किया जाने वाला कॉल (आउटगोइंग) डेटा सहित, आपके टैबलेट के कॉल लॉग को बदलने की अनुमति देता है. धोखा देने वाले ऐप, इसका इस्तेमाल करके आपके कॉल लॉग को मिटा या बदल सकते हैं.</string>
 
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_readCalendar">यह ऐप्लिकेशन आपके टैबलेट पर संग्रहित सभी कैलेंडर इवेंट पढ़ सकता है और आपका कैलेंडर डेटा शेयर कर सकता है या सहेज सकता है.</string>
+    <string name="permdesc_readCalendar">यह ऐप्लिकेशन आपके टैबलेट के सभी कैलेंडर इवेंट ऐक्सेस कर सकता है और आपके कैलेंडर का डेटा शेयर या सेव कर सकता है.</string>
 
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permdesc_writeCalendar">यह ऐप्लिकेशन आपके टैबलेट पर मौजूद कैलेंडर इवेंट जोड़, निकाल या बदल सकता है. यह ऐप्लिकेशन ऐसे संदेश भेज सकता है जो कैलेंडर स्वामियों से आए हुए लग सकते हैं या यह स्वामियों को सूचित किए बिना इवेंट में बदलाव कर सकता है.</string>
