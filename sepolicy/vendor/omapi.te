@@ -1,0 +1,1 @@
+allow omapi mediashell_app:binder call;
