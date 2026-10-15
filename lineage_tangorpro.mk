@@ -24,10 +24,10 @@ TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 2560
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="tangorpro-user 17 CP3A.260905.009 16091614 release-keys" \
-    BuildSystemDesc="generic_system_google-user 17 CP3A.260905.009 16091614 release-keys" \
-    BuildFingerprint=google/tangorpro/tangorpro:17/CP3A.260905.009/16091614:user/release-keys \
-    BuildSystemFingerprint=google/generic_system_google/generic:17/CP3A.260905.009/16091614:user/release-keys \
+    BuildDesc="tangorpro-user 17 CP3A.261005.002.A1 16269273 release-keys" \
+    BuildSystemDesc=generic_system_google-user 17 CP3A.261005.002.A1 16269273 release-keys \
+    BuildFingerprint=google/tangorpro/tangorpro:17/CP3A.261005.002.A1/16269273:user/release-keys \
+    BuildSystemFingerprint=google/generic_system_google/generic:17/CP3A.261005.002.A1/16269273:user/release-keys \
     DeviceProduct=$(DEVICE_CODENAME)
 
 $(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
