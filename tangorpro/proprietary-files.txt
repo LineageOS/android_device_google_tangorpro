@@ -153,3 +153,7 @@ vendor/firmware/novatek_ts_fw.bin:recovery/root/vendor/firmware/novatek_ts_fw.bi
 vendor/firmware/novatek_ts_fw_csot.bin:recovery/root/vendor/firmware/novatek_ts_fw_csot.bin
 vendor/firmware/novatek_ts_mp.bin:recovery/root/vendor/firmware/novatek_ts_mp.bin
 vendor/firmware/novatek_ts_mp_csot.bin:recovery/root/vendor/firmware/novatek_ts_mp_csot.bin
+
+# Rust - from CP2A.260705.006
+vendor/bin/dump/dump_modem|f7fc23bd645677e480ae606cd4fdef260791f8d7
+vendor/bin/gpuflag|66a25fb718e328a0085fc952f19db0f21500b7cb
